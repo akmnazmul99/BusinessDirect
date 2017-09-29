@@ -1,14 +1,16 @@
 <?php include './header.php'; ?>
-<div class="container">
-    <div class="row margin-top-bottom-10px">
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-            <img src="images/logo.png" class="img-responsive" alt="Logo" >
-        </div>
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-            <ul class="phone-number-ul">
-                <li><h1>01612341234</h1></li>
-                <li><i class="fa fa-mobile phone"></i></li>
-            </ul>
+<div id="header" class="container-fluid">
+    <div class="container">
+        <div class="row margin-top-bottom-10px">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <img src="images/logo.png" class="img-responsive" alt="Logo" >
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <ul class="phone-number-ul">
+                    <li><h1>01612341234</h1></li>
+                    <li><img class="img-responsive phone" src="images/phone.png" alt="phone"/></li>
+                </ul>
+            </div>
         </div>
     </div>
 </div>
@@ -47,11 +49,11 @@
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <div id="carouselFade" class="carousel slide carousel-fade">
                     <div class="carousel-inner">
-                        <div class="item active"><img src="images/slider/slide1.jpeg" class="img-responsive carousel-img" alt="Slider Image One" /></div>
-                        <div class="item"><img src="images/slider/slide2.jpeg" class="img-responsive carousel-img" alt="Slider Image Two"/></div>
-                        <div class="item"><img src="images/slider/slide3.jpeg" class="img-responsive carousel-img" alt="Slider Image Three"/></div>
-                        <div class="item"><img src="images/slider/slide4.jpeg" class="img-responsive carousel-img" alt="Slider Image Four"/></div>
-                        <div class="item"><img src="images/slider/slide5.jpeg" class="img-responsive carousel-img" alt="Slider Image Five"/></div>
+                        <div class="item active"><img src="images/slider/slide1.jpg" class="img-responsive carousel-img" alt="Slider Image One" /></div>
+                        <div class="item"><img src="images/slider/slide2.jpg" class="img-responsive carousel-img" alt="Slider Image Two"/></div>
+                        <div class="item"><img src="images/slider/slide3.jpg" class="img-responsive carousel-img" alt="Slider Image Three"/></div>
+                        <div class="item"><img src="images/slider/slide4.jpg" class="img-responsive carousel-img" alt="Slider Image Four"/></div>
+                        <div class="item"><img src="images/slider/slide5.jpg" class="img-responsive carousel-img" alt="Slider Image Five"/></div>
                     </div>
                     <ol class="carousel-indicators">
                         <li data-target="#carouselFade" data-slide-to="0" class="active"></li>
