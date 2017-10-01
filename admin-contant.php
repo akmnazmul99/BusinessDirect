@@ -1,0 +1,555 @@
+<?php include './header.php'; ?>
+<style type="text/css">
+    .msg-panel-box{
+        display: none;
+    }
+</style>
+<div id="header" class="container-fluid">
+    <div class="container">
+        <div class="row margin-top-bottom-10px">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <img src="images/logo.png" class="img-responsive" alt="Logo" >
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <ul class="phone-number-ul">
+                    <li><h1>01612341234</h1></li>
+                    <li><img class="img-responsive phone" src="images/phone.png" alt="phone"/></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="wrapper">
+    <div class="container">
+        <div class="row margin-top-bottom-25px">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+                <div id="exTab1" class="container">	
+                    <ul  class="nav nav-pills">
+                        <li class="active"><a  href="#home" data-toggle="tab">Home</a>
+                        <li><a href="#about-us" data-toggle="tab">About Us</a></li>
+                        <li><a href="#services" data-toggle="tab">Services</a></li>
+                        <li><a href="#careers" data-toggle="tab">Careers</a></li>
+                        <li><a href="#contact-us" data-toggle="tab">Contact Us</a></li>
+                        <li><a href="#footer" data-toggle="tab">Footer</a></li>
+                        <li><a href="#password" data-toggle="tab">Change Password</a></li>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content clearfix">
+                        <div class="tab-pane active" id="home">
+                            <div class="row form-group">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                    <table class="table table-bordered table-responsive">
+                                        <tr>
+                                            <th>Serial</th>
+                                            <th>Content</th>
+                                            <th>Action</th>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td id="home-change-content-1"><img src="images/suppliers/a1.jpg" alt="a1"/></td>
+                                            <td id="home-change-1"><a>Change</a></td>
+                                            <td class="display-hidden" id="home-updated-content-1">
+                                                <form action="" method="post" enctype="multipart/form-data">
+                                                    Select image to upload:
+                                                    <input class="form-group" type="file" name="fileToUpload" id="fileToUpload">
+                                                    <input class="custom-button" type="submit" value="Upload Image" name="submit">
+                                                </form>
+                                            </td>
+                                            <td class="display-hidden" id="home-update-1"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td id="home-change-content-2"><img src="images/suppliers/a2.jpg" alt="a2"/></td>
+                                            <td id="home-change-2"><a>Change</a></td>
+                                            <td class="display-hidden" id="home-updated-content-2">
+                                                <form action="" method="post" enctype="multipart/form-data">
+                                                    Select image to upload:
+                                                    <input class="form-group" type="file" name="fileToUpload" id="fileToUpload">
+                                                    <input class="custom-button" type="submit" value="Upload Image" name="submit">
+                                                </form>
+                                            </td>
+                                            <td class="display-hidden" id="home-update-2"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td id="home-change-content-3"><img src="images/suppliers/a3.jpg" alt="a3"/></td>
+                                            <td id="home-change-3"><a>Change</a></td>
+                                            <td class="display-hidden" id="home-updated-content-3">
+                                                <form action="" method="post" enctype="multipart/form-data">
+                                                    Select image to upload:
+                                                    <input class="form-group" type="file" name="fileToUpload" id="fileToUpload">
+                                                    <input class="custom-button" type="submit" value="Upload Image" name="submit">
+                                                </form>
+                                            </td>
+                                            <td class="display-hidden" id="home-update-3"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>4</td>
+                                            <td id="home-change-content-4"><img src="images/suppliers/a4.jpg" alt="a4"/></td>
+                                            <td id="home-change-4"><a>Change</a></td>
+                                            <td class="display-hidden" id="home-updated-content-4">
+                                                <form action="" method="post" enctype="multipart/form-data">
+                                                    Select image to upload:
+                                                    <input class="form-group" type="file" name="fileToUpload" id="fileToUpload">
+                                                    <input class="custom-button" type="submit" value="Upload Image" name="submit">
+                                                </form>
+                                            </td>
+                                            <td class="display-hidden" id="home-update-4"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>5</td>
+                                            <td id="home-change-content-5"><img src="images/suppliers/a5.jpg" alt="a5"/></td>
+                                            <td id="home-change-5"><a>Change</a></td>
+                                            <td class="display-hidden" id="home-updated-content-5">
+                                                <form action="" method="post" enctype="multipart/form-data">
+                                                    Select image to upload:
+                                                    <input class="form-group" type="file" name="fileToUpload" id="fileToUpload">
+                                                    <input class="custom-button" type="submit" value="Upload Image" name="submit">
+                                                </form>
+                                            </td>
+                                            <td class="display-hidden" id="home-update-5"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>6</td>
+                                            <td id="home-change-content-6"><img src="images/suppliers/a6.jpg" alt="a6"/></td>
+                                            <td id="home-change-6"><a>Change</a></td>
+                                            <td class="display-hidden" id="home-updated-content-6">
+                                                <form action="" method="post" enctype="multipart/form-data">
+                                                    Select image to upload:
+                                                    <input class="form-group" type="file" name="fileToUpload" id="fileToUpload">
+                                                    <input class="custom-button" type="submit" value="Upload Image" name="submit">
+                                                </form>
+                                            </td>
+                                            <td class="display-hidden" id="home-update-6"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>7</td>
+                                            <td id="home-change-content-7"><img src="images/suppliers/a7.jpg" alt="a7"/></td>
+                                            <td id="home-change-7"><a>Change</a></td>
+                                            <td class="display-hidden" id="home-updated-content-7">
+                                                <form action="" method="post" enctype="multipart/form-data">
+                                                    Select image to upload:
+                                                    <input class="form-group" type="file" name="fileToUpload" id="fileToUpload">
+                                                    <input class="custom-button" type="submit" value="Upload Image" name="submit">
+                                                </form>
+                                            </td>
+                                            <td class="display-hidden" id="home-update-7"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>8</td>
+                                            <td id="home-change-content-8"><img src="images/suppliers/a8.jpg" alt="a8"/></td>
+                                            <td id="home-change-8"><a>Change</a></td>
+                                            <td class="display-hidden" id="home-updated-content-8">
+                                                <form action="" method="post" enctype="multipart/form-data">
+                                                    Select image to upload:
+                                                    <input class="form-group" type="file" name="fileToUpload" id="fileToUpload">
+                                                    <input class="custom-button" type="submit" value="Upload Image" name="submit">
+                                                </form>
+                                            </td>
+                                            <td class="display-hidden" id="home-update-8"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>9</td>
+                                            <td id="home-change-content-9"><img src="images/suppliers/a9.jpg" alt="a9"/></td>
+                                            <td id="home-change-9"><a>Change</a></td>
+                                            <td class="display-hidden" id="home-updated-content-9">
+                                                <form action="" method="post" enctype="multipart/form-data">
+                                                    Select image to upload:
+                                                    <input class="form-group" type="file" name="fileToUpload" id="fileToUpload">
+                                                    <input class="custom-button" type="submit" value="Upload Image" name="submit">
+                                                </form>
+                                            </td>
+                                            <td class="display-hidden" id="home-update-9"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>10</td>
+                                            <td id="home-change-content-10"><img src="images/suppliers/a10.jpg" alt="a10"/></td>
+                                            <td id="home-change-10"><a>Change</a></td>
+                                            <td class="display-hidden" id="home-updated-content-10">
+                                                <form action="" method="post" enctype="multipart/form-data">
+                                                    Select image to upload:
+                                                    <input class="form-group" type="file" name="fileToUpload" id="fileToUpload">
+                                                    <input class="custom-button" type="submit" value="Upload Image" name="submit">
+                                                </form>
+                                            </td>
+                                            <td class="display-hidden" id="home-update-10"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>11</td>
+                                            <td id="home-change-content-11"><img src="images/suppliers/a11.jpg" alt="a11"/></td>
+                                            <td id="home-change-11"><a>Change</a></td>
+                                            <td class="display-hidden" id="home-updated-content-11">
+                                                <form action="" method="post" enctype="multipart/form-data">
+                                                    Select image to upload:
+                                                    <input class="form-group" type="file" name="fileToUpload" id="fileToUpload">
+                                                    <input class="custom-button" type="submit" value="Upload Image" name="submit">
+                                                </form>
+                                            </td>
+                                            <td class="display-hidden" id="home-update-11"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>12</td>
+                                            <td id="home-change-content-12"><img src="images/suppliers/a12.jpg" alt="a12"/></td>
+                                            <td id="home-change-12"><a>Change</a></td>
+                                            <td class="display-hidden" id="home-updated-content-12">
+                                                <form action="" method="post" enctype="multipart/form-data">
+                                                    Select image to upload:
+                                                    <input class="form-group" type="file" name="fileToUpload" id="fileToUpload">
+                                                    <input class="custom-button" type="submit" value="Upload Image" name="submit">
+                                                </form>
+                                            </td>
+                                            <td class="display-hidden" id="home-update-12"><a>Update</a></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="about-us">
+                            <div class="row form-group">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                    <table class="table table-bordered table-responsive">
+                                        <tr>
+                                            <th>Serial</th>
+                                            <th>Content</th>
+                                            <th>Action</th>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td id="about-us-edit-content-1">Introducing UK Energy Business.</td>
+                                            <td id="about-us-edit-1"><a>Edit</a></td>
+                                            <td class="display-hidden" id="about-us-updated-content-1"><textarea class="form-control">Introducing UK Energy Business.</textarea></td>
+                                            <td class="display-hidden" id="about-us-update-1"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td id="about-us-edit-content-2">UK Energy Business Limited is a independent broker service agency working on behalf of energy suppliers in the UK. Our aim is to help business take advantage of the best prices and services on offer from suppliers.</td>
+                                            <td id="about-us-edit-2"><a>Edit</a></td>
+                                            <td class="display-hidden" id="about-us-updated-content-2"><textarea class="form-control">UK Energy Business Limited is a independent broker service agency working on behalf of energy suppliers in the UK. Our aim is to help business take advantage of the best prices and services on offer from suppliers.</textarea></td>
+                                            <td class="display-hidden" id="about-us-update-2"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td id="about-us-edit-content-3">How does UK Energy Business Limited make money?</td>
+                                            <td id="about-us-edit-3"><a>Edit</a></td>
+                                            <td class="display-hidden" id="about-us-updated-content-3"><textarea class="form-control">How does UK Energy Business Limited make money?</textarea></td>
+                                            <td class="display-hidden" id="about-us-update-3"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>4</td>
+                                            <td id="about-us-edit-content-4">UK Energy Business Limited has commercial deals in place with some suppliers across all our services which means we receive a small commission payment if you choose to switch or apply for a product with us. Our commercial
+                                                relationships are in place to help make the switching process as convenient as possible for our customers, and in most cases we can offer exclusive deals that are not available directly from the supplier. They also mean we can provide you 
+                                                with a free service. Our commercial relationships have no bearing on the ranking of suppliers in your results.</td>
+                                            <td id="about-us-edit-4"><a>Edit</a></td>
+                                            <td class="display-hidden" id="about-us-updated-content-4"><textarea rows="4" class="form-control">UK Energy Business Limited has commercial deals in place with some suppliers across all our services which means we receive a small commission payment if you choose to switch or apply for a product with us. Our commercial relationships are in place to help make the switching process as convenient as possible for our customers, and in most cases we can offer exclusive deals that are not available directly from the supplier. They also mean we can provide you with a free service. Our commercial relationships have no bearing on the ranking of suppliers in your results.</textarea></td>
+                                            <td class="display-hidden" id="about-us-update-4"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>5</td>
+                                            <td id="about-us-edit-content-5">Can we trust your information to be accurate and comprehensive?</td>
+                                            <td id="about-us-edit-5"><a>Edit</a></td>
+                                            <td class="display-hidden" id="about-us-updated-content-5"><textarea class="form-control">Can we trust your information to be accurate and comprehensive?</textarea></td>
+                                            <td class="display-hidden" id="about-us-update-5"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>6</td>
+                                            <td id="about-us-edit-content-6">The data we use to calculate your results for these services is provided directly by suppliers. We monitor all suppliers continually and update to ensure our results are comprehensive and accurate.</td>
+                                            <td id="about-us-edit-6"><a>Edit</a></td>
+                                            <td class="display-hidden" id="about-us-updated-content-6"><textarea class="form-control">The data we use to calculate your results for these services is provided directly by suppliers. We monitor all suppliers continually and update to ensure our results are comprehensive and accurate.</textarea></td>
+                                            <td class="display-hidden" id="about-us-update-6"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>7</td>
+                                            <td id="about-us-edit-content-7">Suppliers</td>
+                                            <td id="about-us-edit-7"><a>Edit</a></td>
+                                            <td class="display-hidden" id="about-us-updated-content-7"><textarea class="form-control">Suppliers</textarea></td>
+                                            <td class="display-hidden" id="about-us-update-7"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>8</td>
+                                            <td id="about-us-edit-content-8">UK Energy Business Limited tries to include all suppliers and products on the market in our comparisons whenever possible - whether we receive commission from them or not. However there are circumstances where a supplier or a product cannot be included in our search - for example, we may not be able to show a supplier's products because we do not have a commercial agreement with them or because they do not wish to be included in our comparison.</td>
+                                            <td id="about-us-edit-8"><a>Edit</a></td>
+                                            <td class="display-hidden" id="about-us-updated-content-8"><textarea rows="3" class="form-control">UK Energy Business Limited tries to include all suppliers and products on the market in our comparisons whenever possible - whether we receive commission from them or not. However there are circumstances where a supplier or a product cannot be included in our search - for example, we may not be able to show a supplier's products because we do not have a commercial agreement with them or because they do not wish to be included in our comparison.</textarea></td>
+                                            <td class="display-hidden" id="about-us-update-8"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>9</td>
+                                            <td id="about-us-edit-content-9">Why do people use UK Energy Business Limited?</td>
+                                            <td id="about-us-edit-9"><a>Edit</a></td>
+                                            <td class="display-hidden" id="about-us-updated-content-9"><textarea class="form-control">Why do people use UK Energy Business Limited?</textarea></td>
+                                            <td class="display-hidden" id="about-us-update-9"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>10</td>
+                                            <td id="about-us-edit-content-10">People use UK Energy Business Limited because we help you find the best product or tariff for your needs. People complaining more and more about cold call but in UK Energy (Business) Limited customer get the opportunity to speak and discuss direct with the Sales consultant and can explain their problems . We always don't switch, most of the cases we keep customer with the same supplier with a special deal.</td>
+                                            <td id="about-us-edit-10"><a>Edit</a></td>
+                                            <td class="display-hidden" id="about-us-updated-content-10"><textarea rows="3" class="form-control">People use UK Energy Business Limited because we help you find the best product or tariff for your needs. People complaining more and more about cold call but in UK Energy (Business) Limited customer get the opportunity to speak and discuss direct with the Sales consultant and can explain their problems . We always don't switch, most of the cases we keep customer with the same supplier with a special deal.</textarea></td>
+                                            <td class="display-hidden" id="about-us-update-10"><a>Update</a></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="services">
+                            <div class="row form-group">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                    <table class="table table-bordered table-responsive">
+                                        <tr>
+                                            <th>Serial</th>
+                                            <th>Content</th>
+                                            <th>Action</th>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td id="services-edit-content-1">We are always here to help</td>
+                                            <td id="services-edit-1"><a>Edit</a></td>
+                                            <td class="display-hidden" id="services-updated-content-1"><textarea class="form-control">We are always here to help</textarea></td>
+                                            <td class="display-hidden" id="services-update-1"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td id="services-edit-content-2">Each service has a comprehensive help section to answer any questions you have about switching or applying for a product. If you would prefer to have a helping hand, our customer service team are here to help, both before and after you switch.</td>
+                                            <td id="services-edit-2"><a>Edit</a></td>
+                                            <td class="display-hidden" id="services-updated-content-2"><textarea class="form-control">Each service has a comprehensive help section to answer any questions you have about switching or applying for a product. If you would prefer to have a helping hand, our customer service team are here to help, both before and after you switch.</textarea></td>
+                                            <td class="display-hidden" id="services-update-2"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td id="services-edit-content-3">Our team will be there - just a phone call or email away:</td>
+                                            <td id="services-edit-3"><a>Edit</a></td>
+                                            <td class="display-hidden" id="services-updated-content-3"><textarea class="form-control">Our team will be there - just a phone call or email away:</textarea></td>
+                                            <td class="display-hidden" id="services-update-3"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>4</td>
+                                            <td id="services-edit-content-4">+44 0207 1129 189</td>
+                                            <td id="services-edit-4"><a>Edit</a></td>
+                                            <td class="display-hidden" id="services-updated-content-4"><textarea class="form-control">+44 0207 1129 189</textarea></td>
+                                            <td class="display-hidden" id="services-update-4"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>5</td>
+                                            <td id="services-edit-content-5">info@ukenergybusiness.co.uk</td>
+                                            <td id="services-edit-5"><a>Edit</a></td>
+                                            <td class="display-hidden" id="services-updated-content-5"><textarea class="form-control">info@ukenergybusiness.co.uk</textarea></td>
+                                            <td class="display-hidden" id="services-update-5"><a>Update</a></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="careers">
+                            <div class="row form-group">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                    <table class="table table-bordered table-responsive">
+                                        <tr>
+                                            <th>Serial</th>
+                                            <th>Content</th>
+                                            <th>Action</th>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td id="careers-edit-content-1">UK Energy Business Limited is looking for top-caliber people who want the flexibility and resources to grow in their career. If you are the kind of person who has always stood out, we offer a place where you can continue to excel. No matter what your field is or range of interests are, there are opportunities here where your talents can likely be applied and developed. We have thousands of diverse people from different cultures and backgrounds working in a various fields, doing different jobs.</td>
+                                            <td id="careers-edit-1"><a>Edit</a></td>
+                                            <td class="display-hidden" id="careers-updated-content-1"><textarea rows="4" class="form-control">UK Energy Business Limited is looking for top-caliber people who want the flexibility and resources to grow in their career. If you are the kind of person who has always stood out, we offer a place where you can continue to excel. No matter what your field is or range of interests are, there are opportunities here where your talents can likely be applied and developed. We have thousands of diverse people from different cultures and backgrounds working in a various fields, doing different jobs.</textarea></td>
+                                            <td class="display-hidden" id="careers-update-1"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td id="careers-edit-content-2">Merit is the sole criteria for selection.</td>
+                                            <td id="careers-edit-2"><a>Edit</a></td>
+                                            <td class="display-hidden" id="careers-updated-content-2"><textarea class="form-control">Merit is the sole criteria for selection.</textarea></td>
+                                            <td class="display-hidden" id="careers-update-2"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td id="careers-edit-content-3">Attitude is given as much weight age as functional competencies.</td>
+                                            <td id="careers-edit-3"><a>Edit</a></td>
+                                            <td class="display-hidden" id="careers-updated-content-3"><textarea class="form-control">Attitude is given as much weight age as functional competencies.</textarea></td>
+                                            <td class="display-hidden" id="careers-update-3"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>4</td>
+                                            <td id="careers-edit-content-4">Panel interviews comprising of Functional Head & HR Head.</td>
+                                            <td id="careers-edit-4"><a>Edit</a></td>
+                                            <td class="display-hidden" id="careers-updated-content-4"><textarea class="form-control">Panel interviews comprising of Functional Head & HR Head.</textarea></td>
+                                            <td class="display-hidden" id="careers-update-4"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>5</td>
+                                            <td id="careers-edit-content-5">Sources for recruitment are through campus, consultants, employee referrals, internal job postings and the internet.</td>
+                                            <td id="careers-edit-5"><a>Edit</a></td>
+                                            <td class="display-hidden" id="careers-updated-content-5"><textarea class="form-control">Sources for recruitment are through campus, consultants, employee referrals, internal job postings and the internet.</textarea></td>
+                                            <td class="display-hidden" id="careers-update-5"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>6</td>
+                                            <td id="careers-edit-content-6">Antecedent verification is an integral part of our recruitment process.</td>
+                                            <td id="careers-edit-6"><a>Edit</a></td>
+                                            <td class="display-hidden" id="careers-updated-content-6"><textarea class="form-control">Antecedent verification is an integral part of our recruitment process.</textarea></td>
+                                            <td class="display-hidden" id="careers-update-6"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>7</td>
+                                            <td id="careers-edit-content-7">Medical fitness is pre-requisite for all positions.</td>
+                                            <td id="careers-edit-7"><a>Edit</a></td>
+                                            <td class="display-hidden" id="careers-updated-content-7"><textarea class="form-control">Medical fitness is pre-requisite for all positions.</textarea></td>
+                                            <td class="display-hidden" id="careers-update-7"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>8</td>
+                                            <td id="careers-edit-content-8">We do not discriminate on the basis of race, community, religion or sex.</td>
+                                            <td id="careers-edit-8"><a>Edit</a></td>
+                                            <td class="display-hidden" id="careers-updated-content-8"><textarea class="form-control">We do not discriminate on the basis of race, community, religion or sex.</textarea></td>
+                                            <td class="display-hidden" id="careers-update-8"><a>Update</a></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="contact-us">
+                            <div class="row form-group">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                    <table class="table table-bordered table-responsive">
+                                        <tr>
+                                            <th>Serial</th>
+                                            <th>Content</th>
+                                            <th>Action</th>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td id="contact-us-edit-content-1">Cobana Energy</td>
+                                            <td id="contact-us-edit-1"><a>Edit</a></td>
+                                            <td class="display-hidden" id="contact-us-updated-content-1"><textarea class="form-control">Cobana Energy</textarea></td>
+                                            <td class="display-hidden" id="contact-us-update-1"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td id="contact-us-edit-content-2">UCB HOUSE, 3 George Street, Watford, Herts WD18 0BX.</td>
+                                            <td id="contact-us-edit-2"><a>Edit</a></td>
+                                            <td class="display-hidden" id="contact-us-updated-content-2"><textarea class="form-control">UCB HOUSE, 3 George Street, Watford, Herts WD18 0BX.</textarea></td>
+                                            <td class="display-hidden" id="contact-us-update-2"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td id="contact-us-edit-content-3">01612341234</td>
+                                            <td id="contact-us-edit-3"><a>Edit</a></td>
+                                            <td class="display-hidden" id="contact-us-updated-content-3"><textarea class="form-control">01612341234</textarea></td>
+                                            <td class="display-hidden" id="contact-us-update-3"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>4</td>
+                                            <td id="contact-us-edit-content-4">info@cobanaenergy.com</td>
+                                            <td id="contact-us-edit-4"><a>Edit</a></td>
+                                            <td class="display-hidden" id="contact-us-updated-content-4"><textarea class="form-control">info@cobanaenergy.com</textarea></td>
+                                            <td class="display-hidden" id="contact-us-update-4"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>5</td>
+                                            <td id="contact-us-edit-content-5">I am interested in a price comparison for my business energy</td>
+                                            <td id="contact-us-edit-5"><a>Edit</a></td>
+                                            <td class="display-hidden" id="contact-us-updated-content-5"><textarea class="form-control">I am interested in a price comparison for my business energy</textarea></td>
+                                            <td class="display-hidden" id="contact-us-update-5"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>6</td>
+                                            <td id="contact-us-edit-content-6">I want to reduce my business energy consumption</td>
+                                            <td id="contact-us-edit-6"><a>Edit</a></td>
+                                            <td class="display-hidden" id="contact-us-updated-content-6"><textarea class="form-control">I want to reduce my business energy consumption</textarea></td>
+                                            <td class="display-hidden" id="contact-us-update-6"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>7</td>
+                                            <td id="contact-us-edit-content-7">I am interested in Cobana Energy’s affiliate network</td>
+                                            <td id="contact-us-edit-7"><a>Edit</a></td>
+                                            <td class="display-hidden" id="contact-us-updated-content-7"><textarea class="form-control">I am interested in Cobana Energy’s affiliate network</textarea></td>
+                                            <td class="display-hidden" id="contact-us-update-7"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>8</td>
+                                            <td id="contact-us-edit-content-8">I need help to understand my bills</td>
+                                            <td id="contact-us-edit-8"><a>Edit</a></td>
+                                            <td class="display-hidden" id="contact-us-updated-content-8"><textarea class="form-control">I need help to understand my bills</textarea></td>
+                                            <td class="display-hidden" id="contact-us-update-8"><a>Update</a></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="footer">
+                            <div class="row form-group">
+                                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                    <table class="table table-bordered table-responsive">
+                                        <tr>
+                                            <th>Serial</th>
+                                            <th>Content</th>
+                                            <th>Action</th>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td id="footer-edit-content-1">Business Direct © 2017. All Rights Reserved.</td>
+                                            <td id="footer-edit-1"><a>Edit</a></td>
+                                            <td class="display-hidden" id="footer-updated-content-1"><textarea class="form-control">Business Direct © 2017. All Rights Reserved.</textarea></td>
+                                            <td class="display-hidden" id="footer-update-1"><a>Update</a></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="password">
+                            <div class="row form-group">
+                                <div class="col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6 col-lg-offset-3 col-lg-6">
+                                    <form>
+                                        <div class="row form-group margin-top-50px">
+                                            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                                                <label class="control_label">Old Password</label>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                                                <div class="input-group">
+                                                    <div class="input-group-addon"><i class="fa fa-briefcase"></i></div>
+                                                    <input type="password" class="form-control" id="old-password" placeholder="Enter Old Password">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row form-group">
+                                            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                                                <label class="control_label">New Password</label>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                                                <div class="input-group">
+                                                    <div class="input-group-addon"><i class="fa fa-briefcase"></i></div>
+                                                    <input type="password" class="form-control" id="new-password" placeholder="Enter New Password">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row form-group">
+                                            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                                                <label class="control_label">Confirm Password</label>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                                                <div class="input-group">
+                                                    <div class="input-group-addon"><i class="fa fa-briefcase"></i></div>
+                                                    <input type="password" class="form-control" id="confirm-password" placeholder="Enter Confirm Password">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row form-group">
+                                            <div class="col-xs-12 col-sm-offset-3 col-sm-9 col-md-offset-3 col-md-9 col-lg-offset-3 col-lg-9">
+                                                <a class="anchor-holder custom-button pull-right">Submit</a>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="push"></div>
+</div>
+<?php include './footer.php'; ?>
+<script type="text/javascript" src="js/admin.js"></script>
