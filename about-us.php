@@ -2,12 +2,12 @@
 <div id="header" class="container-fluid">
     <div class="container">
         <div class="row margin-top-bottom-10px">
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <img src="images/logo.png" class="img-responsive" alt="Logo" >
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <a href="index.php"><img src="images/logo.png" class="img-responsive" alt="Logo" ></a>
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
                 <ul class="phone-number-ul">
-                    <li><h1>01612341234</h1></li>
+                    <li><h1>+44 0207 1129 189</h1></li>
                     <li><img class="img-responsive phone" src="images/phone.png" alt="phone"/></li>
                 </ul>
             </div>
@@ -32,8 +32,8 @@
                             <ul class="nav navbar-nav nav-custom">
                                 <li><a class="hvr-rectangle-out" href="index.php">Home</a></li>
                                 <li class="active"><a class="hvr-rectangle-out" href="about-us.php">About Us</a></li>
-                                <li><a class="hvr-rectangle-out" href="services.php">Services</a></li>
-                                <li><a class="hvr-rectangle-out" href="careers.php">Careers</a></li>
+                                <li><a class="hvr-rectangle-out" href="sme.php">SME</a></li>
+                                 <li><a class="hvr-rectangle-out" href="join-us.php">Join Us</a></li>
                                 <li><a class="hvr-rectangle-out" href="contact-us.php">Contact Us</a></li>
                             </ul>
                         </div>
@@ -48,15 +48,13 @@
         <div class="row form-group wow fadeInDownBig" data-wow-duration="1s">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <h3>Introducing UK Energy Business</h3>
-                <p>UK Energy Business Limited is a independent broker service agency working on behalf of energy suppliers in the UK. Our aim is to help business take advantage of the best prices and services on offer from suppliers.</p>
+                <p>UK Energy Business is a independent broker service agency working on behalf of energy suppliers in the UK. Our aim is to help business take advantage of the best prices and services on offer from suppliers.</p>
             </div>
         </div>
         <div class="row form-group wow fadeInLeftBig" data-wow-duration="1s">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <h3>How does UK Energy Business Limited make money?</h3>
-                <p>UK Energy Business Limited has commercial deals in place with some suppliers across all our services which means we receive a small commission payment if you choose to switch or apply for a product with us. Our commercial
-                    relationships are in place to help make the switching process as convenient as possible for our customers, and in most cases we can offer exclusive deals that are not available directly from the supplier. They also mean we can provide you 
-                    with a free service. Our commercial relationships have no bearing on the ranking of suppliers in your results.</p>
+                <h3>How does UK Energy Business make money?</h3>
+                <p>UK Energy Business has commercial deals in place with some suppliers across all our services which means we receive a small commission payment if you choose to switch or apply for a product with us. Our commercial relationships are in place to help make the switching process as convenient as possible for our customers, and in most cases we can offer exclusive deals that are not available directly from the supplier. They also mean we can provide you with a free service. Our commercial relationships have no bearing on the ranking of suppliers in your results.</p>
             </div>
         </div>
         <div class="row form-group">
@@ -68,15 +66,13 @@
         <div class="row form-group wow fadeInRightBig" data-wow-duration="1s">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <h3>Suppliers</h3>
-                <p>UK Energy Business Limited tries to include all suppliers and products on the market in our comparisons whenever possible - whether we receive commission from them or not. However there are circumstances where a supplier or
-                    a product cannot be included in our search - for example, we may not be able to show a supplier's products because we do not have a commercial agreement with them or because they do not wish to be included in our comparison.</p>
+                <p>UK Energy Business tries to include all suppliers and products on the market in our comparisons whenever possible - whether we receive commission from them or not. However there are circumstances where a supplier or a product cannot be included in our search - for example, we may not be able to show a supplier's products because we do not have a commercial agreement with them or because they do not wish to be included in our comparison.</p>
             </div>
         </div>
         <div class="row form-group wow fadeInUpBig" data-wow-duration="1s">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <h3>Why do people use UK Energy Business Limited?</h3>
-                <p>People use UK Energy Business Limited because we help you find the best product or tariff for your needs. People complaining more and more about cold call but in UK Energy (Business) Limited customer get the opportunity to 
-                    speak and discuss direct with the Sales consultant and can explain their problems . We always don't switch, most of the cases we keep customer with the same supplier with a special deal.</p>
+                <h3>Why do people use UK Energy Business?</h3>
+                <p>People use UK Energy Business because we help you find the best product or tariff for your needs. People complaining more and more about cold call but in UK Energy Business customer get the opportunity to speak and discuss direct with the Sales consultant and can explain their problems. We always don't switch, most of the cases we keep customer with the same supplier with a special deal.</p>
             </div>
         </div>
     </div>

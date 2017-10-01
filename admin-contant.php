@@ -12,7 +12,7 @@
             </div>
             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                 <ul class="phone-number-ul">
-                    <li><h1>01612341234</h1></li>
+                    <li><h1>+44 0207 1129 189</h1></li>
                     <li><img class="img-responsive phone" src="images/phone.png" alt="phone"/></li>
                 </ul>
             </div>
@@ -29,11 +29,11 @@
                     <ul  class="nav nav-pills">
                         <li class="active"><a  href="#home" data-toggle="tab">Home</a>
                         <li><a href="#about-us" data-toggle="tab">About Us</a></li>
-                        <li><a href="#services" data-toggle="tab">Services</a></li>
-                        <li><a href="#careers" data-toggle="tab">Careers</a></li>
+                        <li><a href="#services" data-toggle="tab">SME</a></li>
+                        <li><a href="#careers" data-toggle="tab">Join Us</a></li>
                         <li><a href="#contact-us" data-toggle="tab">Contact Us</a></li>
                         <li><a href="#footer" data-toggle="tab">Footer</a></li>
-                        <li><a href="#password" data-toggle="tab">Change Password</a></li>
+                        <!--<li><a href="#password" data-toggle="tab">Change Password</a></li>-->
                         </li>
                     </ul>
 
@@ -218,32 +218,30 @@
                                         </tr>
                                         <tr>
                                             <td>1</td>
-                                            <td id="about-us-edit-content-1">Introducing UK Energy Business.</td>
+                                            <td id="about-us-edit-content-1">Introducing UK Energy Business</td>
                                             <td id="about-us-edit-1"><a>Edit</a></td>
-                                            <td class="display-hidden" id="about-us-updated-content-1"><textarea class="form-control">Introducing UK Energy Business.</textarea></td>
+                                            <td class="display-hidden" id="about-us-updated-content-1"><textarea class="form-control">Introducing UK Energy Business</textarea></td>
                                             <td class="display-hidden" id="about-us-update-1"><a>Update</a></td>
                                         </tr>
                                         <tr>
                                             <td>2</td>
-                                            <td id="about-us-edit-content-2">UK Energy Business Limited is a independent broker service agency working on behalf of energy suppliers in the UK. Our aim is to help business take advantage of the best prices and services on offer from suppliers.</td>
+                                            <td id="about-us-edit-content-2">UK Energy Business is a independent broker service agency working on behalf of energy suppliers in the UK. Our aim is to help business take advantage of the best prices and services on offer from suppliers.</td>
                                             <td id="about-us-edit-2"><a>Edit</a></td>
-                                            <td class="display-hidden" id="about-us-updated-content-2"><textarea class="form-control">UK Energy Business Limited is a independent broker service agency working on behalf of energy suppliers in the UK. Our aim is to help business take advantage of the best prices and services on offer from suppliers.</textarea></td>
+                                            <td class="display-hidden" id="about-us-updated-content-2"><textarea class="form-control">UK Energy Business is a independent broker service agency working on behalf of energy suppliers in the UK. Our aim is to help business take advantage of the best prices and services on offer from suppliers.</textarea></td>
                                             <td class="display-hidden" id="about-us-update-2"><a>Update</a></td>
                                         </tr>
                                         <tr>
                                             <td>3</td>
-                                            <td id="about-us-edit-content-3">How does UK Energy Business Limited make money?</td>
+                                            <td id="about-us-edit-content-3">How does UK Energy Business make money?</td>
                                             <td id="about-us-edit-3"><a>Edit</a></td>
-                                            <td class="display-hidden" id="about-us-updated-content-3"><textarea class="form-control">How does UK Energy Business Limited make money?</textarea></td>
+                                            <td class="display-hidden" id="about-us-updated-content-3"><textarea class="form-control">How does UK Energy Business make money?</textarea></td>
                                             <td class="display-hidden" id="about-us-update-3"><a>Update</a></td>
                                         </tr>
                                         <tr>
                                             <td>4</td>
-                                            <td id="about-us-edit-content-4">UK Energy Business Limited has commercial deals in place with some suppliers across all our services which means we receive a small commission payment if you choose to switch or apply for a product with us. Our commercial
-                                                relationships are in place to help make the switching process as convenient as possible for our customers, and in most cases we can offer exclusive deals that are not available directly from the supplier. They also mean we can provide you 
-                                                with a free service. Our commercial relationships have no bearing on the ranking of suppliers in your results.</td>
+                                            <td id="about-us-edit-content-4">UK Energy Business has commercial deals in place with some suppliers across all our services which means we receive a small commission payment if you choose to switch or apply for a product with us. Our commercial relationships are in place to help make the switching process as convenient as possible for our customers, and in most cases we can offer exclusive deals that are not available directly from the supplier. They also mean we can provide you with a free service. Our commercial relationships have no bearing on the ranking of suppliers in your results.</td>
                                             <td id="about-us-edit-4"><a>Edit</a></td>
-                                            <td class="display-hidden" id="about-us-updated-content-4"><textarea rows="4" class="form-control">UK Energy Business Limited has commercial deals in place with some suppliers across all our services which means we receive a small commission payment if you choose to switch or apply for a product with us. Our commercial relationships are in place to help make the switching process as convenient as possible for our customers, and in most cases we can offer exclusive deals that are not available directly from the supplier. They also mean we can provide you with a free service. Our commercial relationships have no bearing on the ranking of suppliers in your results.</textarea></td>
+                                            <td class="display-hidden" id="about-us-updated-content-4"><textarea rows="4" class="form-control">UK Energy Business has commercial deals in place with some suppliers across all our services which means we receive a small commission payment if you choose to switch or apply for a product with us. Our commercial relationships are in place to help make the switching process as convenient as possible for our customers, and in most cases we can offer exclusive deals that are not available directly from the supplier. They also mean we can provide you with a free service. Our commercial relationships have no bearing on the ranking of suppliers in your results.</textarea></td>
                                             <td class="display-hidden" id="about-us-update-4"><a>Update</a></td>
                                         </tr>
                                         <tr>
@@ -269,23 +267,23 @@
                                         </tr>
                                         <tr>
                                             <td>8</td>
-                                            <td id="about-us-edit-content-8">UK Energy Business Limited tries to include all suppliers and products on the market in our comparisons whenever possible - whether we receive commission from them or not. However there are circumstances where a supplier or a product cannot be included in our search - for example, we may not be able to show a supplier's products because we do not have a commercial agreement with them or because they do not wish to be included in our comparison.</td>
+                                            <td id="about-us-edit-content-8">UK Energy Business tries to include all suppliers and products on the market in our comparisons whenever possible - whether we receive commission from them or not. However there are circumstances where a supplier or a product cannot be included in our search - for example, we may not be able to show a supplier's products because we do not have a commercial agreement with them or because they do not wish to be included in our comparison.</td>
                                             <td id="about-us-edit-8"><a>Edit</a></td>
-                                            <td class="display-hidden" id="about-us-updated-content-8"><textarea rows="3" class="form-control">UK Energy Business Limited tries to include all suppliers and products on the market in our comparisons whenever possible - whether we receive commission from them or not. However there are circumstances where a supplier or a product cannot be included in our search - for example, we may not be able to show a supplier's products because we do not have a commercial agreement with them or because they do not wish to be included in our comparison.</textarea></td>
+                                            <td class="display-hidden" id="about-us-updated-content-8"><textarea rows="3" class="form-control">UK Energy Business tries to include all suppliers and products on the market in our comparisons whenever possible - whether we receive commission from them or not. However there are circumstances where a supplier or a product cannot be included in our search - for example, we may not be able to show a supplier's products because we do not have a commercial agreement with them or because they do not wish to be included in our comparison.</textarea></td>
                                             <td class="display-hidden" id="about-us-update-8"><a>Update</a></td>
                                         </tr>
                                         <tr>
                                             <td>9</td>
-                                            <td id="about-us-edit-content-9">Why do people use UK Energy Business Limited?</td>
+                                            <td id="about-us-edit-content-9">Why do people use UK Energy Business?</td>
                                             <td id="about-us-edit-9"><a>Edit</a></td>
-                                            <td class="display-hidden" id="about-us-updated-content-9"><textarea class="form-control">Why do people use UK Energy Business Limited?</textarea></td>
+                                            <td class="display-hidden" id="about-us-updated-content-9"><textarea class="form-control">Why do people use UK Energy Business?</textarea></td>
                                             <td class="display-hidden" id="about-us-update-9"><a>Update</a></td>
                                         </tr>
                                         <tr>
                                             <td>10</td>
-                                            <td id="about-us-edit-content-10">People use UK Energy Business Limited because we help you find the best product or tariff for your needs. People complaining more and more about cold call but in UK Energy (Business) Limited customer get the opportunity to speak and discuss direct with the Sales consultant and can explain their problems . We always don't switch, most of the cases we keep customer with the same supplier with a special deal.</td>
+                                            <td id="about-us-edit-content-10">People use UK Energy Business because we help you find the best product or tariff for your needs. People complaining more and more about cold call but in UK Energy Business customer get the opportunity to speak and discuss direct with the Sales consultant and can explain their problems. We always don't switch, most of the cases we keep customer with the same supplier with a special deal.</td>
                                             <td id="about-us-edit-10"><a>Edit</a></td>
-                                            <td class="display-hidden" id="about-us-updated-content-10"><textarea rows="3" class="form-control">People use UK Energy Business Limited because we help you find the best product or tariff for your needs. People complaining more and more about cold call but in UK Energy (Business) Limited customer get the opportunity to speak and discuss direct with the Sales consultant and can explain their problems . We always don't switch, most of the cases we keep customer with the same supplier with a special deal.</textarea></td>
+                                            <td class="display-hidden" id="about-us-updated-content-10"><textarea rows="3" class="form-control">People use UK Energy Business because we help you find the best product or tariff for your needs. People complaining more and more about cold call but in UK Energy Business customer get the opportunity to speak and discuss direct with the Sales consultant and can explain their problems. We always don't switch, most of the cases we keep customer with the same supplier with a special deal.</textarea></td>
                                             <td class="display-hidden" id="about-us-update-10"><a>Update</a></td>
                                         </tr>
                                     </table>
@@ -336,6 +334,97 @@
                                             <td class="display-hidden" id="services-updated-content-5"><textarea class="form-control">info@ukenergybusiness.co.uk</textarea></td>
                                             <td class="display-hidden" id="services-update-5"><a>Update</a></td>
                                         </tr>
+                                        <tr>
+                                            <td>6</td>
+                                            <td id="services-edit-content-6">Energy</td>
+                                            <td id="services-edit-6"><a>Edit</a></td>
+                                            <td class="display-hidden" id="services-updated-content-6"><textarea class="form-control">Energy</textarea></td>
+                                            <td class="display-hidden" id="services-update-6"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>7</td>
+                                            <td id="services-edit-content-7">Energy bills are rising and represent a significant cost to businesses.</td>
+                                            <td id="services-edit-7"><a>Edit</a></td>
+                                            <td class="display-hidden" id="services-updated-content-7"><textarea class="form-control">Energy bills are rising and represent a significant cost to businesses.</textarea></td>
+                                            <td class="display-hidden" id="services-update-7"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>8</td>
+                                            <td id="services-edit-content-8">Timely review and expert analysis of energy supply contracts are essential to ensure that businesses are not rolled over or renewed onto uncompetitive rates.</td>
+                                            <td id="services-edit-8"><a>Edit</a></td>
+                                            <td class="display-hidden" id="services-updated-content-8"><textarea class="form-control">Timely review and expert analysis of energy supply contracts are essential to ensure that businesses are not rolled over or renewed onto uncompetitive rates.</textarea></td>
+                                            <td class="display-hidden" id="services-update-8"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>9</td>
+                                            <td id="services-edit-content-9">Our comprehensive portfolio of energy suppliers and products enables us to procure energy contracts for businesses of all shapes and sizes.</td>
+                                            <td id="services-edit-9"><a>Edit</a></td>
+                                            <td class="display-hidden" id="services-updated-content-9"><textarea class="form-control">Our comprehensive portfolio of energy suppliers and products enables us to procure energy contracts for businesses of all shapes and sizes.</textarea></td>
+                                            <td class="display-hidden" id="services-update-9"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>10</td>
+                                            <td id="services-edit-content-10">Any energy reviews that we carry out for your business are free of charge</td>
+                                            <td id="services-edit-10"><a>Edit</a></td>
+                                            <td class="display-hidden" id="services-updated-content-10"><textarea class="form-control">Any energy reviews that we carry out for your business are free of charge</textarea></td>
+                                            <td class="display-hidden" id="services-update-10"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>11</td>
+                                            <td id="services-edit-content-11">Half-Hourly electricity & bespoke gas rates</td>
+                                            <td id="services-edit-11"><a>Edit</a></td>
+                                            <td class="display-hidden" id="services-updated-content-11"><textarea class="form-control">Half-Hourly electricity & bespoke gas rates</textarea></td>
+                                            <td class="display-hidden" id="services-update-11"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>12</td>
+                                            <td id="services-edit-content-12">Tariffs available with and without Standing Charge</td>
+                                            <td id="services-edit-12"><a>Edit</a></td>
+                                            <td class="display-hidden" id="services-updated-content-12"><textarea class="form-control">Tariffs available with and without Standing Charge</textarea></td>
+                                            <td class="display-hidden" id="services-update-12"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>13</td>
+                                            <td id="services-edit-content-13">Bill validation</td>
+                                            <td id="services-edit-13"><a>Edit</a></td>
+                                            <td class="display-hidden" id="services-updated-content-13"><textarea class="form-control">Bill validation</textarea></td>
+                                            <td class="display-hidden" id="services-update-13"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>14</td>
+                                            <td id="services-edit-content-14">Anniversary logging and renewal tendering</td>
+                                            <td id="services-edit-14"><a>Edit</a></td>
+                                            <td class="display-hidden" id="services-updated-content-14"><textarea class="form-control">Anniversary logging and renewal tendering</textarea></td>
+                                            <td class="display-hidden" id="services-update-14"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>15</td>
+                                            <td id="services-edit-content-15">Related meters</td>
+                                            <td id="services-edit-15"><a>Edit</a></td>
+                                            <td class="display-hidden" id="services-updated-content-15"><textarea class="form-control">Related meters</textarea></td>
+                                            <td class="display-hidden" id="services-update-15"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>16</td>
+                                            <td id="services-edit-content-16">De-Energised GAS & Electric meters</td>
+                                            <td id="services-edit-16"><a>Edit</a></td>
+                                            <td class="display-hidden" id="services-updated-content-16"><textarea class="form-control">De-Energised GAS & Electric meters</textarea></td>
+                                            <td class="display-hidden" id="services-update-16"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>17</td>
+                                            <td id="services-edit-content-17">Shiperless gas meters</td>
+                                            <td id="services-edit-17"><a>Edit</a></td>
+                                            <td class="display-hidden" id="services-updated-content-17"><textarea class="form-control">Shiperless gas meters</textarea></td>
+                                            <td class="display-hidden" id="services-update-17"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>18</td>
+                                            <td id="services-edit-content-18">Maximum Demand meters</td>
+                                            <td id="services-edit-18"><a>Edit</a></td>
+                                            <td class="display-hidden" id="services-updated-content-18"><textarea class="form-control">Maximum Demand meters</textarea></td>
+                                            <td class="display-hidden" id="services-update-18"><a>Update</a></td>
+                                        </tr>
                                     </table>
                                 </div>
                             </div>
@@ -351,9 +440,9 @@
                                         </tr>
                                         <tr>
                                             <td>1</td>
-                                            <td id="careers-edit-content-1">UK Energy Business Limited is looking for top-caliber people who want the flexibility and resources to grow in their career. If you are the kind of person who has always stood out, we offer a place where you can continue to excel. No matter what your field is or range of interests are, there are opportunities here where your talents can likely be applied and developed. We have thousands of diverse people from different cultures and backgrounds working in a various fields, doing different jobs.</td>
+                                            <td id="careers-edit-content-1">UK Energy Business is looking for top-calibres people who want the flexibility and resources to grow in their career. If you are the kind of person who has always stood out, we offer a place where you can continue to excel. No matter what your field is or range of interests are, there are opportunities here where your talents can likely be applied and developed. We have thousands of diverse people from different cultures and backgrounds working in a various fields, doing different jobs.</td>
                                             <td id="careers-edit-1"><a>Edit</a></td>
-                                            <td class="display-hidden" id="careers-updated-content-1"><textarea rows="4" class="form-control">UK Energy Business Limited is looking for top-caliber people who want the flexibility and resources to grow in their career. If you are the kind of person who has always stood out, we offer a place where you can continue to excel. No matter what your field is or range of interests are, there are opportunities here where your talents can likely be applied and developed. We have thousands of diverse people from different cultures and backgrounds working in a various fields, doing different jobs.</textarea></td>
+                                            <td class="display-hidden" id="careers-updated-content-1"><textarea rows="4" class="form-control">UK Energy Business is looking for top-calibres people who want the flexibility and resources to grow in their career. If you are the kind of person who has always stood out, we offer a place where you can continue to excel. No matter what your field is or range of interests are, there are opportunities here where your talents can likely be applied and developed. We have thousands of diverse people from different cultures and backgrounds working in a various fields, doing different jobs.</textarea></td>
                                             <td class="display-hidden" id="careers-update-1"><a>Update</a></td>
                                         </tr>
                                         <tr>
@@ -386,9 +475,9 @@
                                         </tr>
                                         <tr>
                                             <td>6</td>
-                                            <td id="careers-edit-content-6">Antecedent verification is an integral part of our recruitment process.</td>
+                                            <td id="careers-edit-content-6">Medical fitness is pre-requisite for all positions.</td>
                                             <td id="careers-edit-6"><a>Edit</a></td>
-                                            <td class="display-hidden" id="careers-updated-content-6"><textarea class="form-control">Antecedent verification is an integral part of our recruitment process.</textarea></td>
+                                            <td class="display-hidden" id="careers-updated-content-6"><textarea class="form-control">Medical fitness is pre-requisite for all positions.</textarea></td>
                                             <td class="display-hidden" id="careers-update-6"><a>Update</a></td>
                                         </tr>
                                         <tr>
@@ -405,6 +494,48 @@
                                             <td class="display-hidden" id="careers-updated-content-8"><textarea class="form-control">We do not discriminate on the basis of race, community, religion or sex.</textarea></td>
                                             <td class="display-hidden" id="careers-update-8"><a>Update</a></td>
                                         </tr>
+                                        <tr>
+                                            <td>9</td>
+                                            <td id="careers-edit-content-9">Sales Network</td>
+                                            <td id="careers-edit-9"><a>Edit</a></td>
+                                            <td class="display-hidden" id="careers-updated-content-9"><textarea class="form-control">Sales Network</textarea></td>
+                                            <td class="display-hidden" id="careers-update-9"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>10</td>
+                                            <td id="careers-edit-content-10">Sales Partner Programme</td>
+                                            <td id="careers-edit-10"><a>Edit</a></td>
+                                            <td class="display-hidden" id="careers-updated-content-10"><textarea class="form-control">Sales Partner Programme</textarea></td>
+                                            <td class="display-hidden" id="careers-update-10"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>11</td>
+                                            <td id="careers-edit-content-11">Supplier Network</td>
+                                            <td id="careers-edit-11"><a>Edit</a></td>
+                                            <td class="display-hidden" id="careers-updated-content-11"><textarea class="form-control">Supplier Network</textarea></td>
+                                            <td class="display-hidden" id="careers-update-11"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>12</td>
+                                            <td id="careers-edit-content-12">By Google</td>
+                                            <td id="careers-edit-12"><a>Edit</a></td>
+                                            <td class="display-hidden" id="careers-updated-content-12"><textarea class="form-control">By Google</textarea></td>
+                                            <td class="display-hidden" id="careers-update-12"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>13</td>
+                                            <td id="careers-edit-content-13">By News Paper</td>
+                                            <td id="careers-edit-13"><a>Edit</a></td>
+                                            <td class="display-hidden" id="careers-updated-content-13"><textarea class="form-control">By News Paper</textarea></td>
+                                            <td class="display-hidden" id="careers-update-13"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>14</td>
+                                            <td id="careers-edit-content-14">By Advertisement</td>
+                                            <td id="careers-edit-14"><a>Edit</a></td>
+                                            <td class="display-hidden" id="careers-updated-content-14"><textarea class="form-control">By Advertisement</textarea></td>
+                                            <td class="display-hidden" id="careers-update-14"><a>Update</a></td>
+                                        </tr>
                                     </table>
                                 </div>
                             </div>
@@ -420,30 +551,30 @@
                                         </tr>
                                         <tr>
                                             <td>1</td>
-                                            <td id="contact-us-edit-content-1">Cobana Energy</td>
+                                            <td id="contact-us-edit-content-1">UK ENERGY BUSINESS</td>
                                             <td id="contact-us-edit-1"><a>Edit</a></td>
-                                            <td class="display-hidden" id="contact-us-updated-content-1"><textarea class="form-control">Cobana Energy</textarea></td>
+                                            <td class="display-hidden" id="contact-us-updated-content-1"><textarea class="form-control">UK ENERGY BUSINESS</textarea></td>
                                             <td class="display-hidden" id="contact-us-update-1"><a>Update</a></td>
                                         </tr>
                                         <tr>
                                             <td>2</td>
-                                            <td id="contact-us-edit-content-2">UCB HOUSE, 3 George Street, Watford, Herts WD18 0BX.</td>
+                                            <td id="contact-us-edit-content-2">98-102, Cranbrook Road(1st FL) Ilford Essex IG1 4NH</td>
                                             <td id="contact-us-edit-2"><a>Edit</a></td>
-                                            <td class="display-hidden" id="contact-us-updated-content-2"><textarea class="form-control">UCB HOUSE, 3 George Street, Watford, Herts WD18 0BX.</textarea></td>
+                                            <td class="display-hidden" id="contact-us-updated-content-2"><textarea class="form-control">98-102, Cranbrook Road(1st FL) Ilford Essex IG1 4NH</textarea></td>
                                             <td class="display-hidden" id="contact-us-update-2"><a>Update</a></td>
                                         </tr>
                                         <tr>
                                             <td>3</td>
-                                            <td id="contact-us-edit-content-3">01612341234</td>
+                                            <td id="contact-us-edit-content-3">+44 0207 1129 189</td>
                                             <td id="contact-us-edit-3"><a>Edit</a></td>
-                                            <td class="display-hidden" id="contact-us-updated-content-3"><textarea class="form-control">01612341234</textarea></td>
+                                            <td class="display-hidden" id="contact-us-updated-content-3"><textarea class="form-control">+44 0207 1129 189</textarea></td>
                                             <td class="display-hidden" id="contact-us-update-3"><a>Update</a></td>
                                         </tr>
                                         <tr>
                                             <td>4</td>
-                                            <td id="contact-us-edit-content-4">info@cobanaenergy.com</td>
+                                            <td id="contact-us-edit-content-4"> info@ukenergybusiness.com</td>
                                             <td id="contact-us-edit-4"><a>Edit</a></td>
-                                            <td class="display-hidden" id="contact-us-updated-content-4"><textarea class="form-control">info@cobanaenergy.com</textarea></td>
+                                            <td class="display-hidden" id="contact-us-updated-content-4"><textarea class="form-control"> info@ukenergybusiness.com</textarea></td>
                                             <td class="display-hidden" id="contact-us-update-4"><a>Update</a></td>
                                         </tr>
                                         <tr>
@@ -462,9 +593,9 @@
                                         </tr>
                                         <tr>
                                             <td>7</td>
-                                            <td id="contact-us-edit-content-7">I am interested in Cobana Energy’s affiliate network</td>
+                                            <td id="contact-us-edit-content-7">I am interested to join UK Energy Business</td>
                                             <td id="contact-us-edit-7"><a>Edit</a></td>
-                                            <td class="display-hidden" id="contact-us-updated-content-7"><textarea class="form-control">I am interested in Cobana Energy’s affiliate network</textarea></td>
+                                            <td class="display-hidden" id="contact-us-updated-content-7"><textarea class="form-control">I am interested to join UK Energy Business</textarea></td>
                                             <td class="display-hidden" id="contact-us-update-7"><a>Update</a></td>
                                         </tr>
                                         <tr>
@@ -498,7 +629,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane" id="password">
+<!--                        <div class="tab-pane" id="password">
                             <div class="row form-group">
                                 <div class="col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6 col-lg-offset-3 col-lg-6">
                                     <form>
@@ -543,7 +674,7 @@
                                     </form>
                                 </div>
                             </div>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
             </div>

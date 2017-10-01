@@ -1,5 +1,5 @@
 $(document).ready(function () {
-
+    /*----------- home ---------------*/
     $("#home-change-1").click(function () {
         $("#home-update-1").show();
         $("#home-updated-content-1").show();
@@ -146,7 +146,7 @@ $(document).ready(function () {
         $("#home-change-content-12").show();
     });
 
-
+    /*----------- About Us ---------------*/
     $("#about-us-edit-1").click(function () {
         $("#about-us-updated-content-1").show();
         $("#about-us-update-1").show();
@@ -269,7 +269,7 @@ $(document).ready(function () {
     });
 
 
-
+    /*----------- SME ---------------*/
     $("#services-edit-1").click(function () {
         $("#services-updated-content-1").show();
         $("#services-update-1").show();
@@ -331,7 +331,165 @@ $(document).ready(function () {
         $("#services-update-5").hide();
     });
 
+    $("#services-edit-6").click(function () {
+        $("#services-updated-content-6").show();
+        $("#services-update-6").show();
+        $("#services-edit-6").hide();
+        $("#services-edit-content-6").hide();
+    });
+    $("#services-update-6").click(function () {
+        $("#services-edit-6").show();
+        $("#services-edit-content-6").show();
+        $("#services-updated-content-6").hide();
+        $("#services-update-6").hide();
+    });
+    $("#services-edit-7").click(function () {
+        $("#services-updated-content-7").show();
+        $("#services-update-7").show();
+        $("#services-edit-7").hide();
+        $("#services-edit-content-7").hide();
+    });
+    $("#services-update-7").click(function () {
+        $("#services-edit-7").show();
+        $("#services-edit-content-7").show();
+        $("#services-updated-content-7").hide();
+        $("#services-update-7").hide();
+    });
+    $("#services-edit-8").click(function () {
+        $("#services-updated-content-8").show();
+        $("#services-update-8").show();
+        $("#services-edit-8").hide();
+        $("#services-edit-content-8").hide();
+    });
+    $("#services-update-8").click(function () {
+        $("#services-edit-8").show();
+        $("#services-edit-content-8").show();
+        $("#services-updated-content-8").hide();
+        $("#services-update-8").hide();
+    });
+    $("#services-edit-9").click(function () {
+        $("#services-updated-content-9").show();
+        $("#services-update-9").show();
+        $("#services-edit-9").hide();
+        $("#services-edit-content-9").hide();
+    });
+    $("#services-update-9").click(function () {
+        $("#services-edit-9").show();
+        $("#services-edit-content-9").show();
+        $("#services-updated-content-9").hide();
+        $("#services-update-9").hide();
+    });
+    $("#services-edit-10").click(function () {
+        $("#services-updated-content-10").show();
+        $("#services-update-10").show();
+        $("#services-edit-10").hide();
+        $("#services-edit-content-10").hide();
+    });
+    $("#services-update-10").click(function () {
+        $("#services-edit-10").show();
+        $("#services-edit-content-10").show();
+        $("#services-updated-content-10").hide();
+        $("#services-update-10").hide();
+    });
+    $("#services-edit-11").click(function () {
+        $("#services-updated-content-11").show();
+        $("#services-update-11").show();
+        $("#services-edit-11").hide();
+        $("#services-edit-content-11").hide();
+    });
+    $("#services-update-11").click(function () {
+        $("#services-edit-11").show();
+        $("#services-edit-content-11").show();
+        $("#services-updated-content-11").hide();
+        $("#services-update-11").hide();
+    });
+    $("#services-edit-12").click(function () {
+        $("#services-updated-content-12").show();
+        $("#services-update-12").show();
+        $("#services-edit-12").hide();
+        $("#services-edit-content-12").hide();
+    });
+    $("#services-update-12").click(function () {
+        $("#services-edit-12").show();
+        $("#services-edit-content-12").show();
+        $("#services-updated-content-12").hide();
+        $("#services-update-12").hide();
+    });
+    $("#services-edit-13").click(function () {
+        $("#services-updated-content-13").show();
+        $("#services-update-13").show();
+        $("#services-edit-13").hide();
+        $("#services-edit-content-13").hide();
+    });
+    $("#services-update-13").click(function () {
+        $("#services-edit-13").show();
+        $("#services-edit-content-13").show();
+        $("#services-updated-content-13").hide();
+        $("#services-update-13").hide();
+    });
+    $("#services-edit-14").click(function () {
+        $("#services-updated-content-14").show();
+        $("#services-update-14").show();
+        $("#services-edit-14").hide();
+        $("#services-edit-content-14").hide();
+    });
+    $("#services-update-14").click(function () {
+        $("#services-edit-14").show();
+        $("#services-edit-content-14").show();
+        $("#services-updated-content-14").hide();
+        $("#services-update-14").hide();
+    });
+    $("#services-edit-15").click(function () {
+        $("#services-updated-content-15").show();
+        $("#services-update-15").show();
+        $("#services-edit-15").hide();
+        $("#services-edit-content-15").hide();
+    });
+    $("#services-update-15").click(function () {
+        $("#services-edit-15").show();
+        $("#services-edit-content-15").show();
+        $("#services-updated-content-15").hide();
+        $("#services-update-15").hide();
+    });
+    $("#services-edit-16").click(function () {
+        $("#services-updated-content-16").show();
+        $("#services-update-16").show();
+        $("#services-edit-16").hide();
+        $("#services-edit-content-16").hide();
+    });
+    $("#services-update-16").click(function () {
+        $("#services-edit-16").show();
+        $("#services-edit-content-16").show();
+        $("#services-updated-content-16").hide();
+        $("#services-update-16").hide();
+    });
+    $("#services-edit-17").click(function () {
+        $("#services-updated-content-17").show();
+        $("#services-update-17").show();
+        $("#services-edit-17").hide();
+        $("#services-edit-content-17").hide();
+    });
+    $("#services-update-17").click(function () {
+        $("#services-edit-17").show();
+        $("#services-edit-content-17").show();
+        $("#services-updated-content-17").hide();
+        $("#services-update-17").hide();
+    });
+    $("#services-edit-18").click(function () {
+        $("#services-updated-content-18").show();
+        $("#services-update-18").show();
+        $("#services-edit-18").hide();
+        $("#services-edit-content-18").hide();
+    });
+    $("#services-update-18").click(function () {
+        $("#services-edit-18").show();
+        $("#services-edit-content-18").show();
+        $("#services-updated-content-18").hide();
+        $("#services-update-18").hide();
+    });
 
+
+    /*----------- Join Us ---------------*/
     $("#careers-edit-1").click(function () {
         $("#careers-updated-content-1").show();
         $("#careers-update-1").show();
@@ -428,6 +586,81 @@ $(document).ready(function () {
         $("#careers-updated-content-8").hide();
         $("#careers-update-8").hide();
     });
+
+    $("#careers-edit-9").click(function () {
+        $("#careers-updated-content-9").show();
+        $("#careers-update-9").show();
+        $("#careers-edit-9").hide();
+        $("#careers-edit-content-9").hide();
+    });
+    $("#careers-update-9").click(function () {
+        $("#careers-edit-9").show();
+        $("#careers-edit-content-9").show();
+        $("#careers-updated-content-9").hide();
+        $("#careers-update-9").hide();
+    });
+    $("#careers-edit-10").click(function () {
+        $("#careers-updated-content-10").show();
+        $("#careers-update-10").show();
+        $("#careers-edit-10").hide();
+        $("#careers-edit-content-10").hide();
+    });
+    $("#careers-update-10").click(function () {
+        $("#careers-edit-10").show();
+        $("#careers-edit-content-10").show();
+        $("#careers-updated-content-10").hide();
+        $("#careers-update-10").hide();
+    });
+    $("#careers-edit-11").click(function () {
+        $("#careers-updated-content-11").show();
+        $("#careers-update-11").show();
+        $("#careers-edit-11").hide();
+        $("#careers-edit-content-11").hide();
+    });
+    $("#careers-update-11").click(function () {
+        $("#careers-edit-11").show();
+        $("#careers-edit-content-11").show();
+        $("#careers-updated-content-11").hide();
+        $("#careers-update-11").hide();
+    });
+    $("#careers-edit-12").click(function () {
+        $("#careers-updated-content-12").show();
+        $("#careers-update-12").show();
+        $("#careers-edit-12").hide();
+        $("#careers-edit-content-12").hide();
+    });
+    $("#careers-update-12").click(function () {
+        $("#careers-edit-12").show();
+        $("#careers-edit-content-12").show();
+        $("#careers-updated-content-12").hide();
+        $("#careers-update-12").hide();
+    });
+    $("#careers-edit-13").click(function () {
+        $("#careers-updated-content-13").show();
+        $("#careers-update-13").show();
+        $("#careers-edit-13").hide();
+        $("#careers-edit-content-13").hide();
+    });
+    $("#careers-update-13").click(function () {
+        $("#careers-edit-13").show();
+        $("#careers-edit-content-13").show();
+        $("#careers-updated-content-13").hide();
+        $("#careers-update-13").hide();
+    });
+    $("#careers-edit-14").click(function () {
+        $("#careers-updated-content-14").show();
+        $("#careers-update-14").show();
+        $("#careers-edit-14").hide();
+        $("#careers-edit-content-14").hide();
+    });
+    $("#careers-update-14").click(function () {
+        $("#careers-edit-14").show();
+        $("#careers-edit-content-14").show();
+        $("#careers-updated-content-14").hide();
+        $("#careers-update-14").hide();
+    });
+
+
 
 
     $("#contact-us-edit-1").click(function () {

@@ -232,7 +232,7 @@ a:hover{
     transform: scale(1);
 }
 .about-us,.services,.career,.contact-us{
-    margin-top: 50px;
+    /*margin-top: 50px;*/
 }
 /*---------------------------------- Home ----------------------------------------*/
 
@@ -327,7 +327,14 @@ a:hover{
 .about-us p{
     text-align: justify;
 }
-/*---------------------------------- Services ----------------------------------------*/
+/*---------------------------------- SME ----------------------------------------*/
+.sme-ul{
+    margin: 0;
+    padding: 0;
+}
+.sme-ul li{
+    margin: 8px 0;
+}
 .services h3{
     font-weight: bold;
 }
@@ -393,6 +400,12 @@ a:hover{
     -webkit-animation-delay: 1.4s; 
     -moz-animation-delay: 1.4s; 
     animation-delay: 1.4s;
+}
+.fade-timer-8th{
+    visibility: visible; 
+    -webkit-animation-delay: 1.6s; 
+    -moz-animation-delay: 1.6s; 
+    animation-delay: 1.6s;
 }
 
 /*---------------------------------- Contact Us ----------------------------------------*/

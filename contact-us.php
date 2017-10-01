@@ -2,12 +2,12 @@
 <div id="header" class="container-fluid">
     <div class="container">
         <div class="row margin-top-bottom-10px">
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                <img src="images/logo.png" class="img-responsive" alt="Logo" >
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <a href="index.php"><img src="images/logo.png" class="img-responsive" alt="Logo" ></a>
             </div>
-            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
                 <ul class="phone-number-ul">
-                    <li><h1>01612341234</h1></li>
+                    <li><h1>+44 0207 1129 189</h1></li>
                     <li><img class="img-responsive phone" src="images/phone.png" alt="phone"/></li>
                 </ul>
             </div>
@@ -32,8 +32,8 @@
                             <ul class="nav navbar-nav nav-custom">
                                 <li><a class="hvr-rectangle-out" href="index.php">Home</a></li>
                                 <li><a class="hvr-rectangle-out" href="about-us.php">About Us</a></li>
-                                <li><a class="hvr-rectangle-out" href="services.php">Services</a></li>
-                                <li><a class="hvr-rectangle-out" href="careers.php">Careers</a></li>
+                                <li><a class="hvr-rectangle-out" href="sme.php">SME</a></li>
+                                 <li><a class="hvr-rectangle-out" href="join-us.php">Join Us</a></li>
                                 <li class="active"><a class="hvr-rectangle-out" href="contact-us.php">Contact Us</a></li>
                             </ul>
                         </div>
@@ -119,7 +119,7 @@
                         <div class="col-xs-12 col-sm-offset-3 col-sm-9 col-md-offset-3 col-md-9 col-lg-offset-3 col-lg-9">
                             <div class="check-box">
                                 <label>
-                                    <input type="checkbox"> <span>I am interested in Cobana Energy’s affiliate network</span>
+                                    <input type="checkbox"> <span>I am interested to join UK Energy Business </span>
                                 </label>
                             </div>
                         </div>
@@ -153,22 +153,22 @@
                 </div>
                 <div class="row form-group">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <i class="fa fa-home"></i>  <span>Cobana Energy</span>
+                        <i class="fa fa-home"></i>  <span>UK ENERGY BUSINESS </span>
                     </div>
                 </div>
                 <div class="row form-group">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <i class="fa fa-address-book"></i>  <span>UCB HOUSE, 3 George Street, Watford, Herts WD18 0BX.</span>
+                        <i class="fa fa-address-book"></i>  <span>98-102, Cranbrook Road(1st FL) Ilford Essex IG1 4NH</span>
                     </div>
                 </div>
                 <div class="row form-group">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <i class="fa fa-phone"></i>  <span>01612341234</span>
+                        <i class="fa fa-phone"></i>  <span>+44 0207 1129 189</span>
                     </div>
                 </div>
                 <div class="row form-group">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <i class="fa fa-envelope"></i>  <a>info@cobanaenergy.com</a>
+                        <i class="fa fa-envelope"></i>  <a>info@ukenergybusiness.com</a>
                     </div>
                 </div>
                 <div class="row form-group">
