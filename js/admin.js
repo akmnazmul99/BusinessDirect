@@ -1,41 +1,40 @@
 $(document).ready(function () {
     /*----------- home ---------------*/
-    $("#home-change-1").click(function () {
+    $("#home-edit-1").click(function () {
         $("#home-update-1").show();
         $("#home-updated-content-1").show();
-        $("#home-change-1").hide();
-        $("#home-change-content-1").hide();
+        $("#home-edit-1").hide();
+        $("#home-edit-content-1").hide();
     });
     $("#home-update-1").click(function () {
+        $("#home-edit-1").show();
+        $("#home-edit-content-1").show();
         $("#home-update-1").hide();
         $("#home-updated-content-1").hide();
-        $("#home-change-1").show();
-        $("#home-change-content-1").show();
     });
-
-    $("#home-change-2").click(function () {
+    $("#home-edit-2").click(function () {
         $("#home-update-2").show();
         $("#home-updated-content-2").show();
-        $("#home-change-2").hide();
-        $("#home-change-content-2").hide();
+        $("#home-edit-2").hide();
+        $("#home-edit-content-2").hide();
     });
     $("#home-update-2").click(function () {
+        $("#home-edit-2").show();
+        $("#home-edit-content-2").show();
         $("#home-update-2").hide();
         $("#home-updated-content-2").hide();
-        $("#home-change-2").show();
-        $("#home-change-content-2").show();
     });
-    $("#home-change-3").click(function () {
+    $("#home-edit-3").click(function () {
         $("#home-update-3").show();
         $("#home-updated-content-3").show();
-        $("#home-change-3").hide();
-        $("#home-change-content-3").hide();
+        $("#home-edit-3").hide();
+        $("#home-edit-content-3").hide();
     });
     $("#home-update-3").click(function () {
+        $("#home-edit-3").show();
+        $("#home-edit-content-3").show();
         $("#home-update-3").hide();
         $("#home-updated-content-3").hide();
-        $("#home-change-3").show();
-        $("#home-change-content-3").show();
     });
     $("#home-change-4").click(function () {
         $("#home-update-4").show();
@@ -144,6 +143,42 @@ $(document).ready(function () {
         $("#home-updated-content-12").hide();
         $("#home-change-12").show();
         $("#home-change-content-12").show();
+    });
+    $("#home-change-13").click(function () {
+        $("#home-update-13").show();
+        $("#home-updated-content-13").show();
+        $("#home-change-13").hide();
+        $("#home-change-content-13").hide();
+    });
+    $("#home-update-13").click(function () {
+        $("#home-update-13").hide();
+        $("#home-updated-content-13").hide();
+        $("#home-change-13").show();
+        $("#home-change-content-13").show();
+    });
+    $("#home-change-14").click(function () {
+        $("#home-update-14").show();
+        $("#home-updated-content-14").show();
+        $("#home-change-14").hide();
+        $("#home-change-content-14").hide();
+    });
+    $("#home-update-14").click(function () {
+        $("#home-update-14").hide();
+        $("#home-updated-content-14").hide();
+        $("#home-change-14").show();
+        $("#home-change-content-14").show();
+    });
+    $("#home-change-15").click(function () {
+        $("#home-update-15").show();
+        $("#home-updated-content-15").show();
+        $("#home-change-15").hide();
+        $("#home-change-content-15").hide();
+    });
+    $("#home-update-15").click(function () {
+        $("#home-update-15").hide();
+        $("#home-updated-content-15").hide();
+        $("#home-change-15").show();
+        $("#home-change-content-15").show();
     });
 
     /*----------- About Us ---------------*/
@@ -426,66 +461,6 @@ $(document).ready(function () {
         $("#services-edit-content-13").show();
         $("#services-updated-content-13").hide();
         $("#services-update-13").hide();
-    });
-    $("#services-edit-14").click(function () {
-        $("#services-updated-content-14").show();
-        $("#services-update-14").show();
-        $("#services-edit-14").hide();
-        $("#services-edit-content-14").hide();
-    });
-    $("#services-update-14").click(function () {
-        $("#services-edit-14").show();
-        $("#services-edit-content-14").show();
-        $("#services-updated-content-14").hide();
-        $("#services-update-14").hide();
-    });
-    $("#services-edit-15").click(function () {
-        $("#services-updated-content-15").show();
-        $("#services-update-15").show();
-        $("#services-edit-15").hide();
-        $("#services-edit-content-15").hide();
-    });
-    $("#services-update-15").click(function () {
-        $("#services-edit-15").show();
-        $("#services-edit-content-15").show();
-        $("#services-updated-content-15").hide();
-        $("#services-update-15").hide();
-    });
-    $("#services-edit-16").click(function () {
-        $("#services-updated-content-16").show();
-        $("#services-update-16").show();
-        $("#services-edit-16").hide();
-        $("#services-edit-content-16").hide();
-    });
-    $("#services-update-16").click(function () {
-        $("#services-edit-16").show();
-        $("#services-edit-content-16").show();
-        $("#services-updated-content-16").hide();
-        $("#services-update-16").hide();
-    });
-    $("#services-edit-17").click(function () {
-        $("#services-updated-content-17").show();
-        $("#services-update-17").show();
-        $("#services-edit-17").hide();
-        $("#services-edit-content-17").hide();
-    });
-    $("#services-update-17").click(function () {
-        $("#services-edit-17").show();
-        $("#services-edit-content-17").show();
-        $("#services-updated-content-17").hide();
-        $("#services-update-17").hide();
-    });
-    $("#services-edit-18").click(function () {
-        $("#services-updated-content-18").show();
-        $("#services-update-18").show();
-        $("#services-edit-18").hide();
-        $("#services-edit-content-18").hide();
-    });
-    $("#services-update-18").click(function () {
-        $("#services-edit-18").show();
-        $("#services-edit-content-18").show();
-        $("#services-updated-content-18").hide();
-        $("#services-update-18").hide();
     });
 
 

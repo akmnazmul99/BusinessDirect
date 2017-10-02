@@ -2,13 +2,17 @@
 Version: 1.0
 Author: A.K.M. Nazmul Islam*/
 
-
 @font-face {
-    font-family: 'source_sans_proregular';
-    src: url('../fonts/sourcesanspro-regular-webfont.woff') format('woff'),
-        url('../fonts/sourcesanspro-regular-webfont.eot') format('eot'),
-        url('../fonts/sourcesanspro-regular-webfont.ttf') format('ttf'),
-        url('../fonts/sourcesanspro-regular-webfontd41d.eot') format('eot');
+    font-family: 'fira_sanslight';
+    src: url('../fonts/firasans-light-webfont.woff2') format('woff2'),
+        url('../fonts/firasans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'fira_sanslight_italic';
+    src: url('../fonts/firasans-lightitalic-webfont.woff2') format('woff2'),
+        url('../fonts/firasans-lightitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -19,7 +23,7 @@ html, body {
     padding: 0;
 }
 body {
-    font-family: 'source_sans_proregular'!important;
+    font-family: 'fira_sanslight'!important;
     color: #666!important;
     font-size: 16px;
     line-height: 150%;
@@ -293,7 +297,7 @@ a:hover{
 
 /*---------------------------------- Features ----------------------------------------*/
 #features {
-    font-family: 'source_sans_proregular';
+    font-family: 'fira_sanslight';
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.56);
     max-width: 100%;
     padding: 10px 5px;
@@ -315,6 +319,16 @@ a:hover{
     color: #666;
     text-decoration: none;
 }
+#features p {
+    display: block; 
+    display: -webkit-box;
+    margin: 0 auto;
+    line-height: 150%;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 /*---------------------------------- Suppliers ----------------------------------------*/
 .suppliers a img{
     width: 100px!important;
@@ -333,6 +347,7 @@ a:hover{
     padding: 0;
 }
 .sme-ul li{
+    font-family: 'fira_sanslight_italic';
     margin: 8px 0;
 }
 .services h3{
@@ -410,6 +425,7 @@ a:hover{
 
 /*---------------------------------- Contact Us ----------------------------------------*/
 .contact-us h3{
+    font-family: sans-serif;
     font-weight: bold;
 }
 .control_label{

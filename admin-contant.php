@@ -49,46 +49,28 @@
                                         </tr>
                                         <tr>
                                             <td>1</td>
-                                            <td id="home-change-content-1"><img src="images/suppliers/a1.jpg" alt="a1"/></td>
-                                            <td id="home-change-1"><a>Change</a></td>
-                                            <td class="display-hidden" id="home-updated-content-1">
-                                                <form action="" method="post" enctype="multipart/form-data">
-                                                    Select image to upload:
-                                                    <input class="form-group" type="file" name="fileToUpload" id="fileToUpload">
-                                                    <input class="custom-button" type="submit" value="Upload Image" name="submit">
-                                                </form>
-                                            </td>
+                                            <td id="home-edit-content-1">Welcome to UK Energy Business</td>
+                                            <td id="home-edit-1"><a>Edit</a></td>
+                                            <td class="display-hidden" id="home-updated-content-1"><textarea class="form-control">Welcome to UK Energy Business</textarea></td>
                                             <td class="display-hidden" id="home-update-1"><a>Update</a></td>
                                         </tr>
                                         <tr>
                                             <td>2</td>
-                                            <td id="home-change-content-2"><img src="images/suppliers/a2.jpg" alt="a2"/></td>
-                                            <td id="home-change-2"><a>Change</a></td>
-                                            <td class="display-hidden" id="home-updated-content-2">
-                                                <form action="" method="post" enctype="multipart/form-data">
-                                                    Select image to upload:
-                                                    <input class="form-group" type="file" name="fileToUpload" id="fileToUpload">
-                                                    <input class="custom-button" type="submit" value="Upload Image" name="submit">
-                                                </form>
-                                            </td>
+                                            <td id="home-edit-content-2">UK Energy Business is one of the UK’s leading business energy sales providers. We help small medium enterprises and corporate businesses to procure the best Gas, Electric, Telephone, Broadband / Internet and Water deals available in the market.</td>
+                                            <td id="home-edit-2"><a>Edit</a></td>
+                                            <td class="display-hidden" id="home-updated-content-2"><textarea class="form-control">UK Energy Business is one of the UK’s leading business energy sales providers. We help small medium enterprises and corporate businesses to procure the best Gas, Electric, Telephone, Broadband / Internet and Water deals available in the market.</textarea></td>
                                             <td class="display-hidden" id="home-update-2"><a>Update</a></td>
                                         </tr>
                                         <tr>
                                             <td>3</td>
-                                            <td id="home-change-content-3"><img src="images/suppliers/a3.jpg" alt="a3"/></td>
-                                            <td id="home-change-3"><a>Change</a></td>
-                                            <td class="display-hidden" id="home-updated-content-3">
-                                                <form action="" method="post" enctype="multipart/form-data">
-                                                    Select image to upload:
-                                                    <input class="form-group" type="file" name="fileToUpload" id="fileToUpload">
-                                                    <input class="custom-button" type="submit" value="Upload Image" name="submit">
-                                                </form>
-                                            </td>
+                                            <td id="home-edit-content-3">Uk Energy Business is an independent consultancy. We understand that there are many factors that affect how well a business performs and reducing costs is a quintessential part of improving the performance of the business. We help businesses to procure industry leading products and best in class solutions to deliver significant cost savings. Our comprehensive portfolio of suppliers and solutions enable us to provide highly informed and completely impartial advice. Feel free to contact us for a free review of your business services.</td>
+                                            <td id="home-edit-3"><a>Edit</a></td>
+                                            <td class="display-hidden" id="home-updated-content-3"><textarea rows="4" class="form-control">Uk Energy Business is an independent consultancy. We understand that there are many factors that affect how well a business performs and reducing costs is a quintessential part of improving the performance of the business. We help businesses to procure industry leading products and best in class solutions to deliver significant cost savings. Our comprehensive portfolio of suppliers and solutions enable us to provide highly informed and completely impartial advice. Feel free to contact us for a free review of your business services.</textarea></td>
                                             <td class="display-hidden" id="home-update-3"><a>Update</a></td>
                                         </tr>
                                         <tr>
                                             <td>4</td>
-                                            <td id="home-change-content-4"><img src="images/suppliers/a4.jpg" alt="a4"/></td>
+                                            <td id="home-change-content-4"><img src="images/suppliers/a1.jpg" alt="a1"/></td>
                                             <td id="home-change-4"><a>Change</a></td>
                                             <td class="display-hidden" id="home-updated-content-4">
                                                 <form action="" method="post" enctype="multipart/form-data">
@@ -101,7 +83,7 @@
                                         </tr>
                                         <tr>
                                             <td>5</td>
-                                            <td id="home-change-content-5"><img src="images/suppliers/a5.jpg" alt="a5"/></td>
+                                            <td id="home-change-content-5"><img src="images/suppliers/a2.jpg" alt="a2"/></td>
                                             <td id="home-change-5"><a>Change</a></td>
                                             <td class="display-hidden" id="home-updated-content-5">
                                                 <form action="" method="post" enctype="multipart/form-data">
@@ -114,7 +96,7 @@
                                         </tr>
                                         <tr>
                                             <td>6</td>
-                                            <td id="home-change-content-6"><img src="images/suppliers/a6.jpg" alt="a6"/></td>
+                                            <td id="home-change-content-6"><img src="images/suppliers/a3.jpg" alt="a3"/></td>
                                             <td id="home-change-6"><a>Change</a></td>
                                             <td class="display-hidden" id="home-updated-content-6">
                                                 <form action="" method="post" enctype="multipart/form-data">
@@ -127,7 +109,7 @@
                                         </tr>
                                         <tr>
                                             <td>7</td>
-                                            <td id="home-change-content-7"><img src="images/suppliers/a7.jpg" alt="a7"/></td>
+                                            <td id="home-change-content-7"><img src="images/suppliers/a4.jpg" alt="a4"/></td>
                                             <td id="home-change-7"><a>Change</a></td>
                                             <td class="display-hidden" id="home-updated-content-7">
                                                 <form action="" method="post" enctype="multipart/form-data">
@@ -140,7 +122,7 @@
                                         </tr>
                                         <tr>
                                             <td>8</td>
-                                            <td id="home-change-content-8"><img src="images/suppliers/a8.jpg" alt="a8"/></td>
+                                            <td id="home-change-content-8"><img src="images/suppliers/a5.jpg" alt="a5"/></td>
                                             <td id="home-change-8"><a>Change</a></td>
                                             <td class="display-hidden" id="home-updated-content-8">
                                                 <form action="" method="post" enctype="multipart/form-data">
@@ -153,7 +135,7 @@
                                         </tr>
                                         <tr>
                                             <td>9</td>
-                                            <td id="home-change-content-9"><img src="images/suppliers/a9.jpg" alt="a9"/></td>
+                                            <td id="home-change-content-9"><img src="images/suppliers/a6.jpg" alt="a6"/></td>
                                             <td id="home-change-9"><a>Change</a></td>
                                             <td class="display-hidden" id="home-updated-content-9">
                                                 <form action="" method="post" enctype="multipart/form-data">
@@ -166,7 +148,7 @@
                                         </tr>
                                         <tr>
                                             <td>10</td>
-                                            <td id="home-change-content-10"><img src="images/suppliers/a10.jpg" alt="a10"/></td>
+                                            <td id="home-change-content-10"><img src="images/suppliers/a7.jpg" alt="a7"/></td>
                                             <td id="home-change-10"><a>Change</a></td>
                                             <td class="display-hidden" id="home-updated-content-10">
                                                 <form action="" method="post" enctype="multipart/form-data">
@@ -179,7 +161,7 @@
                                         </tr>
                                         <tr>
                                             <td>11</td>
-                                            <td id="home-change-content-11"><img src="images/suppliers/a11.jpg" alt="a11"/></td>
+                                            <td id="home-change-content-11"><img src="images/suppliers/a8.jpg" alt="a8"/></td>
                                             <td id="home-change-11"><a>Change</a></td>
                                             <td class="display-hidden" id="home-updated-content-11">
                                                 <form action="" method="post" enctype="multipart/form-data">
@@ -192,7 +174,7 @@
                                         </tr>
                                         <tr>
                                             <td>12</td>
-                                            <td id="home-change-content-12"><img src="images/suppliers/a12.jpg" alt="a12"/></td>
+                                            <td id="home-change-content-12"><img src="images/suppliers/a9.jpg" alt="a9"/></td>
                                             <td id="home-change-12"><a>Change</a></td>
                                             <td class="display-hidden" id="home-updated-content-12">
                                                 <form action="" method="post" enctype="multipart/form-data">
@@ -202,6 +184,45 @@
                                                 </form>
                                             </td>
                                             <td class="display-hidden" id="home-update-12"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>13</td>
+                                            <td id="home-change-content-13"><img src="images/suppliers/a10.jpg" alt="a10"/></td>
+                                            <td id="home-change-13"><a>Change</a></td>
+                                            <td class="display-hidden" id="home-updated-content-13">
+                                                <form action="" method="post" enctype="multipart/form-data">
+                                                    Select image to upload:
+                                                    <input class="form-group" type="file" name="fileToUpload" id="fileToUpload">
+                                                    <input class="custom-button" type="submit" value="Upload Image" name="submit">
+                                                </form>
+                                            </td>
+                                            <td class="display-hidden" id="home-update-13"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>14</td>
+                                            <td id="home-change-content-14"><img src="images/suppliers/a11.jpg" alt="a11"/></td>
+                                            <td id="home-change-14"><a>Change</a></td>
+                                            <td class="display-hidden" id="home-updated-content-14">
+                                                <form action="" method="post" enctype="multipart/form-data">
+                                                    Select image to upload:
+                                                    <input class="form-group" type="file" name="fileToUpload" id="fileToUpload">
+                                                    <input class="custom-button" type="submit" value="Upload Image" name="submit">
+                                                </form>
+                                            </td>
+                                            <td class="display-hidden" id="home-update-14"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>15</td>
+                                            <td id="home-change-content-15"><img src="images/suppliers/a12.jpg" alt="a12"/></td>
+                                            <td id="home-change-15"><a>Change</a></td>
+                                            <td class="display-hidden" id="home-updated-content-15">
+                                                <form action="" method="post" enctype="multipart/form-data">
+                                                    Select image to upload:
+                                                    <input class="form-group" type="file" name="fileToUpload" id="fileToUpload">
+                                                    <input class="custom-button" type="submit" value="Upload Image" name="submit">
+                                                </form>
+                                            </td>
+                                            <td class="display-hidden" id="home-update-15"><a>Update</a></td>
                                         </tr>
                                     </table>
                                 </div>
@@ -301,129 +322,94 @@
                                         </tr>
                                         <tr>
                                             <td>1</td>
-                                            <td id="services-edit-content-1">We are always here to help</td>
+                                            <td id="services-edit-content-1">Energy</td>
                                             <td id="services-edit-1"><a>Edit</a></td>
-                                            <td class="display-hidden" id="services-updated-content-1"><textarea class="form-control">We are always here to help</textarea></td>
+                                            <td class="display-hidden" id="services-updated-content-1"><textarea class="form-control">Energy</textarea></td>
                                             <td class="display-hidden" id="services-update-1"><a>Update</a></td>
                                         </tr>
                                         <tr>
                                             <td>2</td>
-                                            <td id="services-edit-content-2">Each service has a comprehensive help section to answer any questions you have about switching or applying for a product. If you would prefer to have a helping hand, our customer service team are here to help, both before and after you switch.</td>
+                                            <td id="services-edit-content-2">Energy bills are rising and represent a significant cost to businesses.</td>
                                             <td id="services-edit-2"><a>Edit</a></td>
-                                            <td class="display-hidden" id="services-updated-content-2"><textarea class="form-control">Each service has a comprehensive help section to answer any questions you have about switching or applying for a product. If you would prefer to have a helping hand, our customer service team are here to help, both before and after you switch.</textarea></td>
+                                            <td class="display-hidden" id="services-updated-content-2"><textarea class="form-control">Energy bills are rising and represent a significant cost to businesses.</textarea></td>
                                             <td class="display-hidden" id="services-update-2"><a>Update</a></td>
                                         </tr>
                                         <tr>
                                             <td>3</td>
-                                            <td id="services-edit-content-3">Our team will be there - just a phone call or email away:</td>
+                                            <td id="services-edit-content-3">Timely review and expert analysis of energy supply contracts are essential to ensure that businesses are not rolled over or renewed onto uncompetitive rates.</td>
                                             <td id="services-edit-3"><a>Edit</a></td>
-                                            <td class="display-hidden" id="services-updated-content-3"><textarea class="form-control">Our team will be there - just a phone call or email away:</textarea></td>
+                                            <td class="display-hidden" id="services-updated-content-3"><textarea class="form-control">Timely review and expert analysis of energy supply contracts are essential to ensure that businesses are not rolled over or renewed onto uncompetitive rates.</textarea></td>
                                             <td class="display-hidden" id="services-update-3"><a>Update</a></td>
                                         </tr>
                                         <tr>
                                             <td>4</td>
-                                            <td id="services-edit-content-4">+44 0207 1129 189</td>
+                                            <td id="services-edit-content-4">Our comprehensive portfolio of energy suppliers and products enables us to procure energy contracts for businesses of all shapes and sizes.</td>
                                             <td id="services-edit-4"><a>Edit</a></td>
-                                            <td class="display-hidden" id="services-updated-content-4"><textarea class="form-control">+44 0207 1129 189</textarea></td>
+                                            <td class="display-hidden" id="services-updated-content-4"><textarea class="form-control">Our comprehensive portfolio of energy suppliers and products enables us to procure energy contracts for businesses of all shapes and sizes.</textarea></td>
                                             <td class="display-hidden" id="services-update-4"><a>Update</a></td>
                                         </tr>
                                         <tr>
                                             <td>5</td>
-                                            <td id="services-edit-content-5">info@ukenergybusiness.co.uk</td>
+                                            <td id="services-edit-content-5">Any energy reviews that we carry out for your business are free of charge</td>
                                             <td id="services-edit-5"><a>Edit</a></td>
-                                            <td class="display-hidden" id="services-updated-content-5"><textarea class="form-control">info@ukenergybusiness.co.uk</textarea></td>
+                                            <td class="display-hidden" id="services-updated-content-5"><textarea class="form-control">Any energy reviews that we carry out for your business are free of charge</textarea></td>
                                             <td class="display-hidden" id="services-update-5"><a>Update</a></td>
                                         </tr>
                                         <tr>
                                             <td>6</td>
-                                            <td id="services-edit-content-6">Energy</td>
+                                            <td id="services-edit-content-6">Half-Hourly electricity & bespoke gas rates</td>
                                             <td id="services-edit-6"><a>Edit</a></td>
-                                            <td class="display-hidden" id="services-updated-content-6"><textarea class="form-control">Energy</textarea></td>
+                                            <td class="display-hidden" id="services-updated-content-6"><textarea class="form-control">Half-Hourly electricity & bespoke gas rates</textarea></td>
                                             <td class="display-hidden" id="services-update-6"><a>Update</a></td>
                                         </tr>
                                         <tr>
                                             <td>7</td>
-                                            <td id="services-edit-content-7">Energy bills are rising and represent a significant cost to businesses.</td>
+                                            <td id="services-edit-content-7">Tariffs available with and without Standing Charge</td>
                                             <td id="services-edit-7"><a>Edit</a></td>
-                                            <td class="display-hidden" id="services-updated-content-7"><textarea class="form-control">Energy bills are rising and represent a significant cost to businesses.</textarea></td>
+                                            <td class="display-hidden" id="services-updated-content-7"><textarea class="form-control">Tariffs available with and without Standing Charge</textarea></td>
                                             <td class="display-hidden" id="services-update-7"><a>Update</a></td>
                                         </tr>
                                         <tr>
                                             <td>8</td>
-                                            <td id="services-edit-content-8">Timely review and expert analysis of energy supply contracts are essential to ensure that businesses are not rolled over or renewed onto uncompetitive rates.</td>
+                                            <td id="services-edit-content-8">Bill validation</td>
                                             <td id="services-edit-8"><a>Edit</a></td>
-                                            <td class="display-hidden" id="services-updated-content-8"><textarea class="form-control">Timely review and expert analysis of energy supply contracts are essential to ensure that businesses are not rolled over or renewed onto uncompetitive rates.</textarea></td>
+                                            <td class="display-hidden" id="services-updated-content-8"><textarea class="form-control">Bill validation</textarea></td>
                                             <td class="display-hidden" id="services-update-8"><a>Update</a></td>
                                         </tr>
                                         <tr>
                                             <td>9</td>
-                                            <td id="services-edit-content-9">Our comprehensive portfolio of energy suppliers and products enables us to procure energy contracts for businesses of all shapes and sizes.</td>
+                                            <td id="services-edit-content-9">Anniversary logging and renewal tendering</td>
                                             <td id="services-edit-9"><a>Edit</a></td>
-                                            <td class="display-hidden" id="services-updated-content-9"><textarea class="form-control">Our comprehensive portfolio of energy suppliers and products enables us to procure energy contracts for businesses of all shapes and sizes.</textarea></td>
+                                            <td class="display-hidden" id="services-updated-content-9"><textarea class="form-control">Anniversary logging and renewal tendering</textarea></td>
                                             <td class="display-hidden" id="services-update-9"><a>Update</a></td>
                                         </tr>
                                         <tr>
                                             <td>10</td>
-                                            <td id="services-edit-content-10">Any energy reviews that we carry out for your business are free of charge</td>
+                                            <td id="services-edit-content-10">Related meters</td>
                                             <td id="services-edit-10"><a>Edit</a></td>
-                                            <td class="display-hidden" id="services-updated-content-10"><textarea class="form-control">Any energy reviews that we carry out for your business are free of charge</textarea></td>
+                                            <td class="display-hidden" id="services-updated-content-10"><textarea class="form-control">Related meters</textarea></td>
                                             <td class="display-hidden" id="services-update-10"><a>Update</a></td>
                                         </tr>
                                         <tr>
                                             <td>11</td>
-                                            <td id="services-edit-content-11">Half-Hourly electricity & bespoke gas rates</td>
+                                            <td id="services-edit-content-11">De-Energised GAS & Electric meters</td>
                                             <td id="services-edit-11"><a>Edit</a></td>
-                                            <td class="display-hidden" id="services-updated-content-11"><textarea class="form-control">Half-Hourly electricity & bespoke gas rates</textarea></td>
+                                            <td class="display-hidden" id="services-updated-content-11"><textarea class="form-control">De-Energised GAS & Electric meters</textarea></td>
                                             <td class="display-hidden" id="services-update-11"><a>Update</a></td>
                                         </tr>
                                         <tr>
                                             <td>12</td>
-                                            <td id="services-edit-content-12">Tariffs available with and without Standing Charge</td>
+                                            <td id="services-edit-content-12">Shiperless gas meters</td>
                                             <td id="services-edit-12"><a>Edit</a></td>
-                                            <td class="display-hidden" id="services-updated-content-12"><textarea class="form-control">Tariffs available with and without Standing Charge</textarea></td>
+                                            <td class="display-hidden" id="services-updated-content-12"><textarea class="form-control">Shiperless gas meters</textarea></td>
                                             <td class="display-hidden" id="services-update-12"><a>Update</a></td>
                                         </tr>
                                         <tr>
                                             <td>13</td>
-                                            <td id="services-edit-content-13">Bill validation</td>
+                                            <td id="services-edit-content-13">Maximum Demand meters</td>
                                             <td id="services-edit-13"><a>Edit</a></td>
-                                            <td class="display-hidden" id="services-updated-content-13"><textarea class="form-control">Bill validation</textarea></td>
+                                            <td class="display-hidden" id="services-updated-content-13"><textarea class="form-control">Maximum Demand meters</textarea></td>
                                             <td class="display-hidden" id="services-update-13"><a>Update</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>14</td>
-                                            <td id="services-edit-content-14">Anniversary logging and renewal tendering</td>
-                                            <td id="services-edit-14"><a>Edit</a></td>
-                                            <td class="display-hidden" id="services-updated-content-14"><textarea class="form-control">Anniversary logging and renewal tendering</textarea></td>
-                                            <td class="display-hidden" id="services-update-14"><a>Update</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>15</td>
-                                            <td id="services-edit-content-15">Related meters</td>
-                                            <td id="services-edit-15"><a>Edit</a></td>
-                                            <td class="display-hidden" id="services-updated-content-15"><textarea class="form-control">Related meters</textarea></td>
-                                            <td class="display-hidden" id="services-update-15"><a>Update</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>16</td>
-                                            <td id="services-edit-content-16">De-Energised GAS & Electric meters</td>
-                                            <td id="services-edit-16"><a>Edit</a></td>
-                                            <td class="display-hidden" id="services-updated-content-16"><textarea class="form-control">De-Energised GAS & Electric meters</textarea></td>
-                                            <td class="display-hidden" id="services-update-16"><a>Update</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>17</td>
-                                            <td id="services-edit-content-17">Shiperless gas meters</td>
-                                            <td id="services-edit-17"><a>Edit</a></td>
-                                            <td class="display-hidden" id="services-updated-content-17"><textarea class="form-control">Shiperless gas meters</textarea></td>
-                                            <td class="display-hidden" id="services-update-17"><a>Update</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td>18</td>
-                                            <td id="services-edit-content-18">Maximum Demand meters</td>
-                                            <td id="services-edit-18"><a>Edit</a></td>
-                                            <td class="display-hidden" id="services-updated-content-18"><textarea class="form-control">Maximum Demand meters</textarea></td>
-                                            <td class="display-hidden" id="services-update-18"><a>Update</a></td>
                                         </tr>
                                     </table>
                                 </div>
@@ -629,52 +615,52 @@
                                 </div>
                             </div>
                         </div>
-<!--                        <div class="tab-pane" id="password">
-                            <div class="row form-group">
-                                <div class="col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6 col-lg-offset-3 col-lg-6">
-                                    <form>
-                                        <div class="row form-group margin-top-50px">
-                                            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-                                                <label class="control_label">Old Password</label>
-                                            </div>
-                                            <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
-                                                <div class="input-group">
-                                                    <div class="input-group-addon"><i class="fa fa-briefcase"></i></div>
-                                                    <input type="password" class="form-control" id="old-password" placeholder="Enter Old Password">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row form-group">
-                                            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-                                                <label class="control_label">New Password</label>
-                                            </div>
-                                            <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
-                                                <div class="input-group">
-                                                    <div class="input-group-addon"><i class="fa fa-briefcase"></i></div>
-                                                    <input type="password" class="form-control" id="new-password" placeholder="Enter New Password">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row form-group">
-                                            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-                                                <label class="control_label">Confirm Password</label>
-                                            </div>
-                                            <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
-                                                <div class="input-group">
-                                                    <div class="input-group-addon"><i class="fa fa-briefcase"></i></div>
-                                                    <input type="password" class="form-control" id="confirm-password" placeholder="Enter Confirm Password">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row form-group">
-                                            <div class="col-xs-12 col-sm-offset-3 col-sm-9 col-md-offset-3 col-md-9 col-lg-offset-3 col-lg-9">
-                                                <a class="anchor-holder custom-button pull-right">Submit</a>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>-->
+                        <!--                        <div class="tab-pane" id="password">
+                                                    <div class="row form-group">
+                                                        <div class="col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6 col-lg-offset-3 col-lg-6">
+                                                            <form>
+                                                                <div class="row form-group margin-top-50px">
+                                                                    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                                                                        <label class="control_label">Old Password</label>
+                                                                    </div>
+                                                                    <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                                                                        <div class="input-group">
+                                                                            <div class="input-group-addon"><i class="fa fa-briefcase"></i></div>
+                                                                            <input type="password" class="form-control" id="old-password" placeholder="Enter Old Password">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row form-group">
+                                                                    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                                                                        <label class="control_label">New Password</label>
+                                                                    </div>
+                                                                    <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                                                                        <div class="input-group">
+                                                                            <div class="input-group-addon"><i class="fa fa-briefcase"></i></div>
+                                                                            <input type="password" class="form-control" id="new-password" placeholder="Enter New Password">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row form-group">
+                                                                    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                                                                        <label class="control_label">Confirm Password</label>
+                                                                    </div>
+                                                                    <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                                                                        <div class="input-group">
+                                                                            <div class="input-group-addon"><i class="fa fa-briefcase"></i></div>
+                                                                            <input type="password" class="form-control" id="confirm-password" placeholder="Enter Confirm Password">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row form-group">
+                                                                    <div class="col-xs-12 col-sm-offset-3 col-sm-9 col-md-offset-3 col-md-9 col-lg-offset-3 col-lg-9">
+                                                                        <a class="anchor-holder custom-button pull-right">Submit</a>
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                </div>-->
                     </div>
                 </div>
             </div>

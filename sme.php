@@ -33,7 +33,7 @@
                                 <li><a class="hvr-rectangle-out" href="index.php">Home</a></li>
                                 <li><a class="hvr-rectangle-out" href="about-us.php">About Us</a></li>
                                 <li class="active"><a class="hvr-rectangle-out" href="sme.php">SME</a></li>
-                                 <li><a class="hvr-rectangle-out" href="join-us.php">Join Us</a></li>
+                                <li><a class="hvr-rectangle-out" href="join-us.php">Join Us</a></li>
                                 <li><a class="hvr-rectangle-out" href="contact-us.php">Contact Us</a></li>
                             </ul>
                         </div>
@@ -45,27 +45,27 @@
 </div>
 <div class="wrapper">
     <div class="container services">
-        <div class="row form-group wow fadeInDownBig" data-wow-duration="1s">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <h3 class="title">We are always here to help</h3>
-                <p class="paragraph">Each service has a comprehensive help section to answer any questions you have about switching or applying for a product. If you would prefer to have a helping hand, our customer service team are here to help, both before and after you switch.</p>
-            </div>
-        </div>
-        <div class="row form-group wow fadeInLeftBig" data-wow-duration="1s">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <p class="paragraph">Our team will be there - just a phone call or email away:</p>
-            </div>
-        </div>
-        <div class="row form-group wow fadeInRightBig" data-wow-duration="1s">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <p class="paragraph">Phone: +44 0207 1129 189</p>
-            </div>
-        </div>
-        <div class="row form-group wow fadeInUpBig" data-wow-duration="1s">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <p class="paragraph">E-mail: <a>info@ukenergybusiness.com</a></p>
-            </div>
-        </div>
+        <!--        <div class="row form-group wow fadeInDownBig" data-wow-duration="1s">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <h3 class="title">We are always here to help</h3>
+                        <p class="paragraph">Each service has a comprehensive help section to answer any questions you have about switching or applying for a product. If you would prefer to have a helping hand, our customer service team are here to help, both before and after you switch.</p>
+                    </div>
+                </div>
+                <div class="row form-group wow fadeInLeftBig" data-wow-duration="1s">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <p class="paragraph">Our team will be there - just a phone call or email away:</p>
+                    </div>
+                </div>
+                <div class="row form-group wow fadeInRightBig" data-wow-duration="1s">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <p class="paragraph">Phone: +44 0207 1129 189</p>
+                    </div>
+                </div>
+                <div class="row form-group wow fadeInUpBig" data-wow-duration="1s">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <p class="paragraph">E-mail: <a>info@ukenergybusiness.com</a></p>
+                    </div>
+                </div>-->
         <div class="row form-group wow fadeInDownBig" data-wow-duration="1s">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <h3 class="title">Energy</h3>

@@ -33,7 +33,7 @@
                                 <li><a class="hvr-rectangle-out" href="index.php">Home</a></li>
                                 <li><a class="hvr-rectangle-out" href="about-us.php">About Us</a></li>
                                 <li><a class="hvr-rectangle-out" href="sme.php">SME</a></li>
-                                 <li><a class="hvr-rectangle-out" href="join-us.php">Join Us</a></li>
+                                <li><a class="hvr-rectangle-out" href="join-us.php">Join Us</a></li>
                                 <li class="active"><a class="hvr-rectangle-out" href="contact-us.php">Contact Us</a></li>
                             </ul>
                         </div>

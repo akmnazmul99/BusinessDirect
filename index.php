@@ -73,31 +73,40 @@
                 </div>
             </div>
         </div>		
-    </div>		
+    </div>
+    <div class="container">
+        <div class="row form-group margin-top-50px text-justify">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h2>Welcome to UK Energy Business</h2>
+                <p>UK Energy Business is one of the UK’s leading business energy sales providers. We help small medium enterprises and corporate businesses to procure the best Gas, Electric, Telephone, Broadband / Internet and Water deals available in the market.</p>
+                <p>Uk Energy Business is an independent consultancy. We understand that there are many factors that affect how well a business performs and reducing costs is a quintessential part of improving the performance of the business. We help businesses to procure industry leading products and best in class solutions to deliver significant cost savings. Our comprehensive portfolio of suppliers and solutions enable us to provide highly informed and completely impartial advice. Feel free to contact us for a free review of your business services.</p>
+            </div>
+        </div>
+    </div>
     <div class="container">
         <div class="row form-group margin-top-50px">
             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 wow fadeInLeftBig" data-wow-duration="1s">
                 <div id="features">
                     <a href="about-us.php"><img src="images/features/icon-1.png" alt="About Us"/></a><p></p>
                     <h1><a href="about-us.php">About Us</a></h1>
-                    <p>UK Energy Business Limited is a independent broker service agency working on behalf of energy suppliers in the UK. Our aim is to help business take advantage of the best prices and services on offer from suppliers.</p>
+                    <p>UK Energy Business is a independent broker service agency working on behalf of energy suppliers in the UK. Our aim is to help business take advantage of the best prices and services on offer from suppliers.</p>
                     <p><a class="more" href="about-us.php">More Info</a></p>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 wow fadeInUpBig" data-wow-duration="1s">
                 <div id="features">
-                    <a href="services.php"><img src="images/features/icon-2.png" alt="Services" ></a><p></p>
-                    <h1><a href="services.php">Services</a></h1>
+                    <a href="sme.php"><img src="images/features/icon-2.png" alt="Services" ></a><p></p>
+                    <h1><a href="sme.php">SME</a></h1>
                     <p>Each service has a comprehensive help section to answer any questions you have about switching or applying for a product. If you would prefer to have a helping hand, our customer service team are here to help, both before and after you switch.</p>
-                    <p><a class="more" href="services.php">More Info</a></p>
+                    <p><a class="more" href="sme.php">More Info</a></p>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 wow fadeInRightBig" data-wow-duration="1s">
                 <div id="features">
-                    <a href="careers.php"><img src="images/features/icon-3.png"  alt="Careers" ></a><p></p>
-                    <h1><a href="careers.php">Careers</a></h1>
-                    <p>UK Energy Business Limited is looking for top-caliber people who want the flexibility and resources to grow in their career. If you are the kind of person who has always stood out, we offer a place where you can continue to excel.</p>
-                    <p><a class="more" href="careers.php">More Info</a></p>
+                    <a href="join-us.php"><img src="images/features/icon-3.png"  alt="Careers" ></a><p></p>
+                    <h1><a href="join-us.php">Join Us</a></h1>
+                    <p>UK Energy Business is looking for top-calibres people who want the flexibility and resources to grow in their career. If you are the kind of person who has always stood out, we offer a place where you can continue to excel. No matter what your field is or range of interests are, there are opportunities here where your talents can likely be applied and developed. We have thousands of diverse people from different cultures and backgrounds working in a various fields, doing different jobs.</p>
+                    <p><a class="more" href="join-us.php">More Info</a></p>
                 </div>
             </div>
         </div>
