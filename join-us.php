@@ -2,13 +2,14 @@
 <div id="header" class="container-fluid">
     <div class="container">
         <div class="row margin-top-bottom-10px">
-            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+            <div class="col-xs-6 col-sm-12 col-md-4 col-lg-4 form-group">
                 <a href="index.php"><img src="images/logo.png" class="img-responsive" alt="Logo" ></a>
             </div>
-            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
                 <ul class="phone-number-ul">
-                    <li><h1>+44 0207 1129 189</h1></li>
+                    <li><h1>0207 1129 189</h1></li>
                     <li><img class="img-responsive phone" src="images/phone.png" alt="phone"/></li>
+                    <li><a href="contact-us.php"><img class="img-responsive free-quote" src="images/request-a-free-quote.jpg" alt="request"/></a></li>
                 </ul>
             </div>
         </div>
@@ -69,10 +70,10 @@
                     <div class="row form-group">
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 form wow fadeInLeftBig" data-wow-duration="1s">
                             <div class="row form-group">
-                                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                                     <label class="control_label">Join Us As</label>
                                 </div>
-                                <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                                <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
                                     <div class="row">
                                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                             <div class="check-box">
@@ -102,13 +103,11 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 form wow fadeInRightBig" data-wow-duration="1s">
                             <div class="row form-group">
-                                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                                     <label class="control_label">How did you find out about us</label>
                                 </div>
-                                <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                                <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
                                     <div class="row">
                                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                             <div class="check-box">
@@ -138,80 +137,57 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="row form-group">
-                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 form wow fadeInLeftBig" data-wow-duration="1s">
                             <div class="row form-group">
-                                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                                     <label class="control_label">Name</label>
                                 </div>
-                                <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                                <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
                                     <div class="input-group">
                                         <div class="input-group-addon"><i class="fa fa-user"></i></div>
                                         <input type="text" class="form-control" id="username" placeholder="Enter Name">
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 form wow fadeInRightBig" data-wow-duration="1s">
                             <div class="row form-group">
-                                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                                     <label class="control_label">Email <span class="color-red">*</span></label>
                                 </div>
-                                <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                                <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
                                     <div class="input-group">
                                         <div class="input-group-addon"><i class="fa fa-envelope"></i></div>
                                         <input type="email" class="form-control" id="username" placeholder="Enter Email">
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="row form-group">
-                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 form wow fadeInLeftBig" data-wow-duration="1s">
                             <div class="row form-group">
-                                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                                     <label class="control_label">Company Name <span class="color-red">*</span></label>
                                 </div>
-                                <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                                <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
                                     <div class="input-group">
                                         <div class="input-group-addon"><i class="fa fa-home"></i></div>
                                         <input type="text" class="form-control" id="username" placeholder="Enter Company Name">
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 form wow fadeInRightBig" data-wow-duration="1s">
                             <div class="row form-group">
-                                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                                     <label class="control_label">Phone Number <span class="color-red">*</span></label>
                                 </div>
-                                <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                                <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
                                     <div class="input-group">
                                         <div class="input-group-addon"><i class="fa fa-phone"></i></div>
                                         <input type="text" class="form-control" id="username" placeholder="Enter Phone Number">
                                     </div>
                                 </div>
                             </div>
+                            <div class="row form-group">
+                                <div class="col-xs-12 col-sm-offset-3 col-sm-9 col-md-offset-3 col-md-9 col-lg-offset-3 col-lg-9">
+                                    <a class="anchor-holder custom-button margin-top-20px  pull-right">Submit & Download</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-            </div>
-        </div>
-        <div class="row form-group">
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <div class="row form-group">
-                    <div class="col-xs-12 col-sm-offset-3 col-sm-9 col-md-offset-3 col-md-9 col-lg-offset-3 col-lg-9">
-                        <a class="anchor-holder custom-button margin-top-20px  pull-right">Download CV</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <div class="row form-group">
-                    <div class="col-xs-12 col-sm-offset-3 col-sm-9 col-md-offset-3 col-md-9 col-lg-offset-3 col-lg-9">
-                        <a class="anchor-holder custom-button margin-top-20px pull-right">Submit</a>
-                    </div>
-                </div>
             </div>
         </div>
         </form>

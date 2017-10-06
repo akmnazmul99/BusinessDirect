@@ -9,13 +9,6 @@ Author: A.K.M. Nazmul Islam*/
     font-weight: normal;
     font-style: normal;
 }
-@font-face {
-    font-family: 'fira_sanslight_italic';
-    src: url('../fonts/firasans-lightitalic-webfont.woff2') format('woff2'),
-        url('../fonts/firasans-lightitalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 
 html, body {
     height: 100%;
@@ -131,6 +124,16 @@ a:hover{
 
 /*---------------------------------- Header ----------------------------------------*/
 #header,.menu{
+    background: #57C0EE;
+    background: -moz-linear-gradient(top, #57C0EE 0%, #fcfcfc 49%, #ffffff 100%);
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0%, #57C0EE), color-stop(49%, #fcfcfc), color-stop(100%, #ffffff));
+    background: -webkit-linear-gradient(bottom, #57C0EE 0%, #fcfcfc 49%, #ffffff 100%);
+    background: -o-linear-gradient(bottom, #57C0EE 0%, #fcfcfc 49%, #ffffff 100%);
+    background: -ms-linear-gradient(bottom, #57C0EE 0%, #fcfcfc 49%, #ffffff 100%);
+    background: linear-gradient(to top, #57C0EE 0%, #fcfcfc 49%, #ffffff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#57C0EE', endColorstr='#ffffff', GradientType=0 );
+}
+/*#header,.menu{
     background: #ffffff;
     background: -moz-linear-gradient(top, #ffffff 0%, #fcfcfc 49%, #f2f2f2 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(49%, #fcfcfc), color-stop(100%, #f2f2f2));
@@ -139,7 +142,7 @@ a:hover{
     background: -ms-linear-gradient(top, #ffffff 0%, #fcfcfc 49%, #f2f2f2 100%);
     background: linear-gradient(to bottom, #ffffff 0%, #fcfcfc 49%, #f2f2f2 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2', GradientType=0 );
-}
+}*/
 
 .sticky{
     position: fixed;
@@ -148,7 +151,7 @@ a:hover{
     z-index: 101;
     right: 0;
 }
-.phone{
+.phone,.free-quote{
     margin-top: 24px;
 }
 .phone-number-ul{
@@ -179,7 +182,10 @@ a:hover{
     background-color: transparent!important;
 }
 .navbar-toggle-custom, .navbar-toggle-custom:focus, .navbar-toggle-custom:hover, .navbar-toggle-custom:active, .navbar-toggle-custom:visited{
-    background: #F41F0D!important;
+    background: #981534!important;
+}
+.navbar-default .navbar-toggle {
+    border-color: #981534!important;
 }
 .header-navbar-custom .navbar-toggle .icon-bar{
     background-color: #fff!important;
@@ -191,7 +197,8 @@ a:hover{
     margin-right: 1px;
 }
 .nav-custom .active{
-    border-bottom: 4px solid #2098D1;
+    border-bottom: 4px solid #00537d;
+    /*border-bottom: 4px solid #2098D1;*/
 
 }
 .nav-custom li a{
@@ -216,7 +223,7 @@ a:hover{
     left: 0;
     right: 0;
     bottom: 0;
-    background: #2098D1;
+    background: #00537d;
     height: 4px;
     -webkit-transform: translateY(4px);
     transform: translateY(4px);
@@ -425,7 +432,7 @@ a:hover{
 
 /*---------------------------------- Contact Us ----------------------------------------*/
 .contact-us h3{
-    font-family: sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bold;
 }
 .control_label{

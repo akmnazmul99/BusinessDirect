@@ -2,13 +2,14 @@
 <div id="header" class="container-fluid">
     <div class="container">
         <div class="row margin-top-bottom-10px">
-            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+            <div class="col-xs-6 col-sm-12 col-md-4 col-lg-4 form-group">
                 <a href="index.php"><img src="images/logo.png" class="img-responsive" alt="Logo" ></a>
             </div>
-            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
                 <ul class="phone-number-ul">
-                    <li><h1>+44 0207 1129 189</h1></li>
+                    <li><h1>0207 1129 189</h1></li>
                     <li><img class="img-responsive phone" src="images/phone.png" alt="phone"/></li>
+                    <li><a href="contact-us.php"><img class="img-responsive free-quote" src="images/request-a-free-quote.jpg" alt="request"/></a></li>
                 </ul>
             </div>
         </div>
@@ -107,55 +108,6 @@
                     <h1><a href="join-us.php">Join Us</a></h1>
                     <p>UK Energy Business is looking for top-calibres people who want the flexibility and resources to grow in their career. If you are the kind of person who has always stood out, we offer a place where you can continue to excel. No matter what your field is or range of interests are, there are opportunities here where your talents can likely be applied and developed. We have thousands of diverse people from different cultures and backgrounds working in a various fields, doing different jobs.</p>
                     <p><a class="more" href="join-us.php">More Info</a></p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row margin-top-50px">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <h1 class="text-center wow fadeInDown" data-wow-duration="1s">Online Direct Suppliers</h1>
-            </div>
-        </div>
-        <div class="suppliers">
-            <div class="row form-group margin-top-50px wow fadeInLeftBig" data-wow-duration="1s">
-                <div class="col-xs-4 col-sm-3 col-md-3 col-lg-2 form-group">
-                    <a href="images/suppliers/a1.jpg"><img src="images/suppliers/a1.jpg" alt="a1"/></a>
-                </div>
-                <div class="col-xs-4 col-sm-3 col-md-3 col-lg-2 form-group">
-                    <a href="images/suppliers/a2.jpg"><img src="images/suppliers/a2.jpg" alt="a2"/></a>
-                </div>
-                <div class="col-xs-4 col-sm-3 col-md-3 col-lg-2 form-group">
-                    <a href="images/suppliers/a3.jpg"><img src="images/suppliers/a3.jpg" alt="a3"/></a>
-                </div>
-                <div class="col-xs-4 col-sm-3 col-md-3 col-lg-2 form-group">
-                    <a href="images/suppliers/a4.jpg"><img src="images/suppliers/a4.jpg" alt="a4"/></a>
-                </div>
-                <div class="col-xs-4 col-sm-3 col-md-3 col-lg-2 form-group">
-                    <a href="images/suppliers/a5.jpg"><img src="images/suppliers/a5.jpg" alt="a5"/></a>
-                </div>
-                <div class="col-xs-4 col-sm-3 col-md-3 col-lg-2 form-group">
-                    <a href="images/suppliers/a6.jpg"><img src="images/suppliers/a6.jpg" alt="a6"/></a>
-                </div>
-            </div>
-            <div class="row form-group wow fadeInRightBig" data-wow-duration="1s">
-                <div class="col-xs-4 col-sm-3 col-md-3 col-lg-2 form-group">
-                    <a href="images/suppliers/a7.jpg"><img src="images/suppliers/a7.jpg" alt="a7"/></a>
-                </div>
-                <div class="col-xs-4 col-sm-3 col-md-3 col-lg-2 form-group">
-                    <a href="images/suppliers/a8.jpg"><img src="images/suppliers/a8.jpg" alt="a8"/></a>
-                </div>
-                <div class="col-xs-4 col-sm-3 col-md-3 col-lg-2 form-group">
-                    <a href="images/suppliers/a9.jpg"><img src="images/suppliers/a9.jpg" alt="a9"/></a>
-                </div>
-                <div class="col-xs-4 col-sm-3 col-md-3 col-lg-2 form-group">
-                    <a href="images/suppliers/a10.jpg"><img src="images/suppliers/a10.jpg" alt="a10"/></a>
-                </div>
-                <div class="col-xs-4 col-sm-3 col-md-3 col-lg-2 form-group">
-                    <a href="images/suppliers/a11.jpg"><img src="images/suppliers/a11.jpg" alt="a11"/></a>
-                </div>
-                <div class="col-xs-4 col-sm-3 col-md-3 col-lg-2 form-group">
-                    <a href="images/suppliers/a12.jpg"><img src="images/suppliers/a12.jpg" alt="a12"/></a>
                 </div>
             </div>
         </div>
