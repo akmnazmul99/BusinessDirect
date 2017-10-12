@@ -1,7 +1,7 @@
 <div class="container margin-top-bottom-25px">
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <h1 class="text-center wow fadeInDown" data-wow-duration="1s">UK Energy Business Suppliers</h1>
+            <h1 class="text-center supplier-title wow fadeInDown" data-wow-duration="1s">UK Energy Business Suppliers</h1>
         </div>
     </div>
     <div class="suppliers">
@@ -103,8 +103,8 @@
 </body>
 </html>
 <script>
-    $(document).ready(function() {
-        $(".quick-msg-img").click(function(event) {
+    $(document).ready(function () {
+        $(".quick-msg-img").click(function (event) {
             event.preventDefault();
             if ($(this).hasClass("in-out")) {
                 $(".msg-panel-box").stop().animate({left: "0px"}, 500);

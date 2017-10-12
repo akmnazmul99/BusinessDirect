@@ -1,11 +1,12 @@
-/*Theme Name: fireSafety
+/*Theme Name: UK Energy Business
+Author: A.K.M. Nazmul Islam
 Version: 1.0
-Author: A.K.M. Nazmul Islam*/
+*/
 
 @font-face {
-    font-family: 'fira_sanslight';
-    src: url('../fonts/firasans-light-webfont.woff2') format('woff2'),
-        url('../fonts/firasans-light-webfont.woff') format('woff');
+    font-family: 'roboto';
+    src: url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+        url('../fonts/roboto-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -16,7 +17,7 @@ html, body {
     padding: 0;
 }
 body {
-    font-family: 'fira_sanslight'!important;
+    font-family: 'roboto'!important;
     color: #666!important;
     font-size: 16px;
     line-height: 150%;
@@ -39,16 +40,6 @@ body {
 .footer,
 .push {
     height: 60px;
-}
-.footer{
-    background: #ffffff;
-    background: -moz-linear-gradient(top, #ffffff 0%, #fcfcfc 49%, #f2f2f2 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(49%, #fcfcfc), color-stop(100%, #f2f2f2));
-    background: -webkit-linear-gradient(top, #ffffff 0%, #fcfcfc 49%, #f2f2f2 100%);
-    background: -o-linear-gradient(top, #ffffff 0%, #fcfcfc 49%, #f2f2f2 100%);
-    background: -ms-linear-gradient(top, #ffffff 0%, #fcfcfc 49%, #f2f2f2 100%);
-    background: linear-gradient(to bottom, #ffffff 0%, #fcfcfc 49%, #f2f2f2 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2', GradientType=0 );
 }
 .header-bg{
     height: 50px;
@@ -77,6 +68,9 @@ a:hover{
 .container-fluid{
     padding-left: 0px!important;
     padding-right: 0px!important;
+}
+.margin-top-10px{
+    margin-top: 10px;
 }
 .margin-top-20px{
     margin-top: 20px;
@@ -150,6 +144,14 @@ a:hover{
     left: 0;
     z-index: 101;
     right: 0;
+}
+.company-name{
+    font-size: 24px;
+    color: #991435;
+    margin-top: 10px;
+    position: relative;
+    top: -90px;
+    left: 150px;
 }
 .phone,.free-quote{
     margin-top: 24px;
@@ -304,7 +306,7 @@ a:hover{
 
 /*---------------------------------- Features ----------------------------------------*/
 #features {
-    font-family: 'fira_sanslight';
+    font-family: 'roboto';
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.56);
     max-width: 100%;
     padding: 10px 5px;
@@ -337,6 +339,9 @@ a:hover{
     text-overflow: ellipsis;
 }
 /*---------------------------------- Suppliers ----------------------------------------*/
+.supplier-title{
+    color: #991435;
+}
 .suppliers a img{
     width: 100px!important;
     height: 50px!important;
@@ -354,7 +359,7 @@ a:hover{
     padding: 0;
 }
 .sme-ul li{
-    font-family: 'fira_sanslight_italic';
+    font-family: 'roboto_italic';
     margin: 8px 0;
 }
 .services h3{
@@ -432,7 +437,7 @@ a:hover{
 
 /*---------------------------------- Contact Us ----------------------------------------*/
 .contact-us h3{
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'roboto';
     font-weight: bold;
 }
 .control_label{
@@ -470,15 +475,10 @@ i{
 
 /*---------------------------------- Footer ----------------------------------------*/
 .footer{
-    border-top: 1px solid #d3d3d3;
-    background: #ffffff;
-    background: -moz-linear-gradient(top, #ffffff 0%, #fcfcfc 49%, #f2f2f2 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(49%, #fcfcfc), color-stop(100%, #f2f2f2));
-    background: -webkit-linear-gradient(top, #ffffff 0%, #fcfcfc 49%, #f2f2f2 100%);
-    background: -o-linear-gradient(top, #ffffff 0%, #fcfcfc 49%, #f2f2f2 100%);
-    background: -ms-linear-gradient(top, #ffffff 0%, #fcfcfc 49%, #f2f2f2 100%);
-    background: linear-gradient(to bottom, #ffffff 0%, #fcfcfc 49%, #f2f2f2 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2', GradientType=0 );
+    background-color: #991435;
+}
+.footer p{
+    color: #fff!important;
 }
 .footer-wrapper{
     border-top: 1px solid #d3d3d3;
@@ -573,6 +573,13 @@ i{
         margin-left: 10px;
         float: right;
     }
+    .phone-number-ul {
+        margin-top: -30px;
+        float: left;
+    }
+    .free-quote {
+        margin-top: 8px;
+    }
     .phone{
         height: 18px;
         margin-top: 15px!important;
@@ -607,21 +614,28 @@ i{
         margin-left: 10px;
         float: right;
     }
-    .header-navbar-custom .navbar-nav > li > a, .header-navbar-custom .navbar-nav > li > a:focus, .header-navbar-custom .navbar-nav > li > a:hover {
-        padding: 15px 30px;
+    .phone-number-ul {
+        margin-top: -30px;
+        float: left;
     }
-    #features {
-        height: 405px;
-    }
-    .msg-panel-box{
-        top: 150px; 
-    }
+}
+.header-navbar-custom .navbar-nav > li > a, .header-navbar-custom .navbar-nav > li > a:focus, .header-navbar-custom .navbar-nav > li > a:hover {
+    padding: 15px 30px;
+}
+#features {
+    height: 405px;
+}
+.msg-panel-box{
+    top: 150px; 
 }
 @media (min-width : 992px) and (max-width : 1199px) {
     .phone-number-ul > li, .phone-number-ul > i{
         display: inline-block;
         margin-left: 10px;
         float: right;
+    }
+    .phone-number-ul {
+        margin-top: 30px;
     }
     .header-navbar-custom .navbar-nav > li > a, .header-navbar-custom .navbar-nav > li > a:focus, .header-navbar-custom .navbar-nav > li > a:hover {
         padding: 15px 33px;
@@ -641,6 +655,9 @@ i{
         display: inline-block;
         margin-left: 10px;
         float: right;
+    }
+    .phone-number-ul {
+        margin-top: 30px;
     }
     .header-navbar-custom .navbar-nav > li > a, .header-navbar-custom .navbar-nav > li > a:focus, .header-navbar-custom .navbar-nav > li > a:hover {
         padding: 15px 27px;

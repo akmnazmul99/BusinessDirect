@@ -2,10 +2,10 @@
 <div id="header" class="container-fluid">
     <div class="container">
         <div class="row margin-top-bottom-10px">
-            <div class="col-xs-6 col-sm-12 col-md-4 col-lg-4 form-group">
-                <a href="index.php"><img src="images/logo.png" class="img-responsive" alt="Logo" ></a>
+            <div class="col-xs-5 col-sm-4 col-md-4 col-lg-4 form-group">
+                <a href="index.php"><img src="images/logo.png" class="img-responsive margin-top-10px" alt="Logo" ></a>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+            <div class="col-xs-7 col-sm-8 col-md-8 col-lg-8">
                 <ul class="phone-number-ul">
                     <li><h1>0207 1129 189</h1></li>
                     <li><img class="img-responsive phone" src="images/phone.png" alt="phone"/></li>
