@@ -608,9 +608,9 @@
                                         </tr>
                                         <tr>
                                             <td>1</td>
-                                            <td id="footer-edit-content-1">UK Energy Business © 2017. All Rights Reserved.</td>
+                                            <td id="footer-edit-content-1">UK Energy Business © 2012. All Rights Reserved.</td>
                                             <td id="footer-edit-1"><a>Edit</a></td>
-                                            <td class="display-hidden" id="footer-updated-content-1"><textarea class="form-control">UK Energy Business © 2017. All Rights Reserved.</textarea></td>
+                                            <td class="display-hidden" id="footer-updated-content-1"><textarea class="form-control">UK Energy Business © 2012. All Rights Reserved.</textarea></td>
                                             <td class="display-hidden" id="footer-update-1"><a>Update</a></td>
                                         </tr>
                                     </table>

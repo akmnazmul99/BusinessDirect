@@ -10,6 +10,13 @@ Version: 1.0
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'opensans';
+    src: url('../fonts/opensans-regular-webfont.woff2') format('woff2'),
+        url('../fonts/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 html, body {
     height: 100%;
@@ -89,6 +96,10 @@ a:hover{
     margin-top: 25px;
     margin-bottom: 25px;
 }
+.margin-top-bottom-adjust{
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
 .custom-button{
     display: inline-block;
     padding: 6px 12px;
@@ -112,8 +123,8 @@ a:hover{
 }
 .custom-button,.custom-button:hover,.custom-button:focus,.custom-button:active{
     color: #fff;
-    background-color: #3f51b5;
-    border-color: #3f51b5;
+    background-color: #00537D;
+    border-color: #00537D;
 }
 
 /*---------------------------------- Header ----------------------------------------*/
@@ -145,20 +156,32 @@ a:hover{
     z-index: 101;
     right: 0;
 }
-.company-name{
-    font-size: 24px;
+.company-country{
+    font-size: 48px;
     color: #991435;
-    margin-top: 10px;
     position: relative;
-    top: -90px;
-    left: 150px;
+    top: 0px;
+    left: 161px;
+}
+.company-business{
+    font-size: 28px;
+    color: #00537D;
+    position: relative;
+    top: 0px;
+    left: 167px;
+}
+.logo{
+    margin-bottom: -40px;
 }
 .phone,.free-quote{
-    margin-top: 24px;
+    margin-top: -20px;
 }
 .phone-number-ul{
     margin: 0;
     padding: 0;
+}
+.phone-number-ul li h1{
+    margin-top: -32px!important;
 }
 .header-navbar-custom {
     background-color: transparent!important;
@@ -301,8 +324,29 @@ a:hover{
     height: 100%!important;
     width: 100%!important;
 }
-
-
+.carousel-caption span{
+    font-family: 'opensans';
+    z-index: 5;
+    white-space: nowrap;
+    letter-spacing: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    visibility: inherit;
+    transition: none;
+    text-align: center;
+    border-width: 0px;
+    margin: 0px;
+    font-weight: 800;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    opacity: 1;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform-origin: 50% 50% 0px;
+}
+.carousel-indicators{
+    bottom: -50px;
+}
 
 /*---------------------------------- Features ----------------------------------------*/
 #features {
@@ -342,7 +386,7 @@ a:hover{
 .supplier-title{
     color: #991435;
 }
-.suppliers a img{
+.suppliers img{
     width: 100px!important;
     height: 50px!important;
 }
@@ -508,8 +552,8 @@ i{
 .quick-msg-img{
     position: absolute;
     display: block;
-    top: -4px;
-    right: -56px;
+    top: -1px;
+    right: -61px;
     cursor: pointer;
 }
 .form-class{
@@ -606,7 +650,15 @@ i{
     .msg-panel-box{
         top: 50px; 
     }
+    .carousel-caption span{
+        font-size: 14px;
+        line-height: 36px;
+        padding: 5px 10px;
 
+    }
+    .carousel-caption{
+        bottom: 25px;
+    }
 }
 @media (min-width : 768px) and (max-width : 991px) {
     .phone-number-ul > li, .phone-number-ul > i{
@@ -617,6 +669,14 @@ i{
     .phone-number-ul {
         margin-top: -30px;
         float: left;
+    }
+    .carousel-caption span{
+        font-size: 18px;
+        line-height: 40px;
+        padding: 5px 10px;
+    }
+    .carousel-caption{
+        bottom: 28px;
     }
 }
 .header-navbar-custom .navbar-nav > li > a, .header-navbar-custom .navbar-nav > li > a:focus, .header-navbar-custom .navbar-nav > li > a:hover {
@@ -649,6 +709,14 @@ i{
     #exTab1 .tab-content {
         border: 1px solid #0092f7;
     }
+    .carousel-caption span{
+        font-size: 25px;
+        line-height: 50px;
+        padding: 5px 10px;
+    }
+    .carousel-caption{
+        bottom: 35px;
+    }
 }
 @media (min-width : 1200px) {
     .phone-number-ul > li, .phone-number-ul > i{
@@ -670,6 +738,14 @@ i{
     }
     #exTab1 .tab-content {
         border: 1px solid #0092f7;
+    }
+    .carousel-caption span{
+        font-size: 25px;
+        line-height: 45px;
+        padding: 5px 10px;
+    }
+    .carousel-caption{
+        bottom: -30px;
     }
 }
 

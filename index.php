@@ -1,10 +1,10 @@
 <?php include './header.php'; ?>
 <div id="header" class="container-fluid">
     <div class="container">
-        <div class="row margin-top-bottom-10px">
+        <div class="row margin-top-bottom-adjust">
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 form-group">
-                <a href="index.php"><img src="images/logo.png" class="img-responsive margin-top-10px" alt="Logo" ></a>
-                <label class="company-name">UK Energy Business</label>
+                <a href="index.php"><img src="images/logo.png" class="img-responsive logo" alt="Logo" ></a>
+                <label class="company-country">UK</label> <label class="company-business">Energy Business</label>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                 <ul class="phone-number-ul">
@@ -54,36 +54,55 @@
                         <div class="item active">
                             <img src="images/slider/slide1.jpg" class="img-responsive carousel-img" alt="Slider Image One" />
                             <div class="carousel-caption d-none d-md-block">
-                                <h3>Slider Image One</h3>
-                                <p>This is a slider image one</p>
+                                <span>Welcome to UK ENERGY BUSINESS</span>
                             </div>
                         </div>
                         <div class="item">
                             <img src="images/slider/slide2.jpg" class="img-responsive carousel-img" alt="Slider Image Two"/>
                             <div class="carousel-caption d-none d-md-block">
-                                <h3>Slider Image Two</h3>
-                                <p>This is a slider image Two</p>
+                                <span>HELPING YOUR BUSINESS TO SAVE YOUR MONEY</span>
                             </div>
                         </div>
                         <div class="item">
                             <img src="images/slider/slide3.jpg" class="img-responsive carousel-img" alt="Slider Image Three"/>
                             <div class="carousel-caption d-none d-md-block">
-                                <h3>Slider Image Three</h3>
-                                <p>This is a slider image Three</p>
+                                <span>HELPING YOUR BUSINESS TO SAME YOUR TIME & MONEY</span>
                             </div>
                         </div>
                         <div class="item">
                             <img src="images/slider/slide4.jpg" class="img-responsive carousel-img" alt="Slider Image Four"/>
                             <div class="carousel-caption d-none d-md-block">
-                                <h3>Slider Image Four</h3>
-                                <p>This is a slider image Four</p>
+                                <span>BENEFIT FROM OUR INDUSTRY LEADING ENERGY PRODUCTS</span>
                             </div>
                         </div>
                         <div class="item">
                             <img src="images/slider/slide5.jpg" class="img-responsive carousel-img" alt="Slider Image Five"/>
                             <div class="carousel-caption d-none d-md-block">
-                                <h3>Slider Image Five</h3>
-                                <p>This is a slider image Five</p>
+                                <span>WE PROVIDE HIGHLY INFORMED AND COMPLETELY IMPARTIAL ADVICE</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/slider/slide6.jpg" class="img-responsive carousel-img" alt="Slider Image Six"/>
+                            <div class="carousel-caption d-none d-md-block">
+                                <span>OUR COMPREHENSIVE PORTFOLIO OF SUPPLIERS <br>ENABLES US TO DELIVER SIGNIFICANT COST SAVINGS</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/slider/slide7.jpg" class="img-responsive carousel-img" alt="Slider Image Seven"/>
+                            <div class="carousel-caption d-none d-md-block">
+                                <span>ANY ENERGY REVIEWS THAT WE CARRY OUT FOR <br> YOUR BUSINESS ARE FREE OF CHARGE</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/slider/slide8.jpg" class="img-responsive carousel-img" alt="Slider Image Eight"/>
+                            <div class="carousel-caption d-none d-md-block">
+                                <span>COMPARE CHEAP ENERGY PRICE AND SUPPLIERS</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="images/slider/slide9.jpg" class="img-responsive carousel-img" alt="Slider Image Nine"/>
+                            <div class="carousel-caption d-none d-md-block">
+                                <span>SMARTER EMERGE / HIGHER SAVINGS, CLEANER ENVIRONMENT</span>
                             </div>
                         </div>
                     </div>
@@ -93,6 +112,10 @@
                         <li data-target="#carouselFade" data-slide-to="2"></li>
                         <li data-target="#carouselFade" data-slide-to="3"></li>
                         <li data-target="#carouselFade" data-slide-to="4"></li>
+                        <li data-target="#carouselFade" data-slide-to="5"></li>
+                        <li data-target="#carouselFade" data-slide-to="6"></li>
+                        <li data-target="#carouselFade" data-slide-to="7"></li>
+                        <li data-target="#carouselFade" data-slide-to="8"></li>
                     </ol>
                     <a class="left carousel-control" href="#carouselFade" role="button" data-slide="prev">
                         <span class="tp-leftarrow " aria-hidden="true"></span>
