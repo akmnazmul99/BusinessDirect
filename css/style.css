@@ -4,19 +4,27 @@ Version: 1.0
 */
 
 @font-face {
-    font-family: 'roboto';
-    src: url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
-        url('../fonts/roboto-regular-webfont.woff') format('woff');
+    font-family: 'berkshireswash';
+    src: url('../fonts/berkshireswash-regular-webfont.woff2') format('woff2'),
+        url('../fonts/berkshireswash-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
-    font-family: 'opensans';
-    src: url('../fonts/opensans-regular-webfont.woff2') format('woff2'),
-        url('../fonts/opensans-regular-webfont.woff') format('woff');
+    font-family: 'comfortaa';
+    src: url('../fonts/comfortaa-regular-webfont.woff2') format('woff2'),
+        url('../fonts/comfortaa-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'ubuntu';
+    src: url('../fonts/ubuntu-regular-webfont.woff2') format('woff2'),
+        url('../fonts/ubuntu-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 html, body {
     height: 100%;
@@ -24,7 +32,7 @@ html, body {
     padding: 0;
 }
 body {
-    font-family: 'roboto'!important;
+    font-family: 'comfortaa';
     color: #666!important;
     font-size: 16px;
     line-height: 150%;
@@ -79,8 +87,14 @@ a:hover{
 .margin-top-10px{
     margin-top: 10px;
 }
+.margin-bottom-10px{
+    margin-bottom: 10px;
+}
 .margin-top-20px{
     margin-top: 20px;
+}
+.margin-top-25px{
+    margin-top: 25px;
 }
 .margin-top-50px{
     margin-top: 50px;
@@ -157,17 +171,19 @@ a:hover{
     right: 0;
 }
 .company-country{
+    font-family: 'berkshireswash';
     font-size: 48px;
     color: #991435;
     position: relative;
-    top: 0px;
+    top: -27px;
     left: 161px;
 }
 .company-business{
+    font-family: 'berkshireswash';
     font-size: 28px;
-    color: #00537D;
+    color: #991435;
     position: relative;
-    top: 0px;
+    top: -24px;
     left: 167px;
 }
 .logo{
@@ -325,7 +341,6 @@ a:hover{
     width: 100%!important;
 }
 .carousel-caption span{
-    font-family: 'opensans';
     z-index: 5;
     white-space: nowrap;
     letter-spacing: 0px;
@@ -350,7 +365,6 @@ a:hover{
 
 /*---------------------------------- Features ----------------------------------------*/
 #features {
-    font-family: 'roboto';
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.56);
     max-width: 100%;
     padding: 10px 5px;
@@ -373,18 +387,22 @@ a:hover{
     text-decoration: none;
 }
 #features p {
-    display: block; 
+    display: block;
     display: -webkit-box;
     margin: 0 auto;
     line-height: 150%;
     -webkit-line-clamp: 5;
     -webkit-box-orient: vertical;
-    overflow: hidden;
+    overflow: hidden!important;
     text-overflow: ellipsis;
 }
 /*---------------------------------- Suppliers ----------------------------------------*/
 .supplier-title{
+    font-family: 'ubuntu';
     color: #991435;
+    font-weight: bold;
+    margin-top: -20px!important;
+    margin-bottom: -10px!important;
 }
 .suppliers img{
     width: 100px!important;
@@ -403,7 +421,6 @@ a:hover{
     padding: 0;
 }
 .sme-ul li{
-    font-family: 'roboto_italic';
     margin: 8px 0;
 }
 .services h3{
@@ -481,7 +498,6 @@ a:hover{
 
 /*---------------------------------- Contact Us ----------------------------------------*/
 .contact-us h3{
-    font-family: 'roboto';
     font-weight: bold;
 }
 .control_label{
@@ -680,7 +696,7 @@ i{
     }
 }
 .header-navbar-custom .navbar-nav > li > a, .header-navbar-custom .navbar-nav > li > a:focus, .header-navbar-custom .navbar-nav > li > a:hover {
-    padding: 15px 30px;
+    padding: 15px 25px;
 }
 #features {
     height: 405px;

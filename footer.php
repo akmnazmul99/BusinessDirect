@@ -1,11 +1,11 @@
-<div class="container margin-top-bottom-25px">
+<div class="container margin-bottom-10px">
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <h1 class="text-center supplier-title wow fadeInDown" data-wow-duration="1s">UK Energy Business Suppliers</h1>
         </div>
     </div>
     <div class="suppliers">
-        <div class="row form-group margin-top-50px wow fadeInLeftBig" data-wow-duration="1s">
+        <div class="row margin-top-25px wow fadeInLeftBig" data-wow-duration="1s">
             <div class="col-xs-4 col-sm-3 col-md-3 col-lg-2 form-group">
                 <img src="images/suppliers/a1.jpg" alt="a1"/>
             </div>
@@ -25,7 +25,7 @@
                 <img src="images/suppliers/a6.jpg" alt="a6"/>
             </div>
         </div>
-        <div class="row form-group wow fadeInRightBig" data-wow-duration="1s">
+        <div class="row wow fadeInRightBig" data-wow-duration="1s">
             <div class="col-xs-4 col-sm-3 col-md-3 col-lg-2 form-group">
                 <img src="images/suppliers/a7.jpg" alt="a7"/>
             </div>
@@ -45,7 +45,7 @@
                 <img src="images/suppliers/a12.jpg" alt="a12"/>
             </div>
         </div>
-        <div class="row form-group wow fadeInLeftBig" data-wow-duration="1s">
+        <div class="row wow fadeInLeftBig" data-wow-duration="1s">
             <div class="col-xs-4 col-sm-3 col-md-3 col-lg-2 form-group">
                 <img src="images/suppliers/a13.jpg" alt="a13"/>
             </div>
