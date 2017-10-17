@@ -639,7 +639,8 @@ i{
         float: left;
     }
     .free-quote {
-        margin-top: 8px;
+        margin-top: 12px;
+        width: 120px;
     }
     .phone{
         height: 18px;
@@ -677,14 +678,14 @@ i{
         bottom: 25px;
     }
     .company-country{
-        font-size: 48px;
+        font-size: 20px;
         top: -27px;
-        left: 161px;
+        left: 135px;
     }
     .company-business{
-        font-size: 28px;
+        font-size: 16px;
         top: -24px;
-        left: 167px;
+        left: 134px;
     }
 }
 @media (min-width : 768px) and (max-width : 991px) {
