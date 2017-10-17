@@ -1,4 +1,3 @@
-<?php include './header.php'; ?>
 <style type="text/css">
     .msg-panel-box{
         display: none;
@@ -7,15 +6,16 @@
 <?php include './header.php'; ?>
 <div id="header" class="container-fluid">
     <div class="container">
-        <div class="row margin-top-bottom-10px">
-            <div class="col-xs-6 col-sm-12 col-md-4 col-lg-4 form-group">
-                <a href="index.php"><img src="images/logo.png" class="img-responsive" alt="Logo" ></a>
+        <div class="row margin-top-bottom-adjust">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 form-group">
+                <a href="index.php"><img src="images/logo.png" class="img-responsive logo" alt="Logo" ></a>
+                <label class="company-country">UK</label> <label class="company-business">Energy Business</label>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                 <ul class="phone-number-ul">
                     <li><h1>0207 1129 189</h1></li>
                     <li><img class="img-responsive phone" src="images/phone.png" alt="phone"/></li>
-                    <li><img class="img-responsive free-quote" src="images/request-a-free-quote.jpg" alt="request"/></li>
+                    <li><a href="contact-us.php"><img class="img-responsive free-quote" src="images/request-a-free-quote.jpg" alt="request"/></a></li>
                 </ul>
             </div>
         </div>
@@ -225,6 +225,84 @@
                                                 </form>
                                             </td>
                                             <td class="display-hidden" id="home-update-15"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>16</td>
+                                            <td id="home-change-content-16"><img src="images/suppliers/a13.jpg" alt="a13"/></td>
+                                            <td id="home-change-16"><a>Change</a></td>
+                                            <td class="display-hidden" id="home-updated-content-16">
+                                                <form action="" method="post" enctype="multipart/form-data">
+                                                    Select image to upload:
+                                                    <input class="form-group" type="file" name="fileToUpload" id="fileToUpload">
+                                                    <input class="custom-button" type="submit" value="Upload Image" name="submit">
+                                                </form>
+                                            </td>
+                                            <td class="display-hidden" id="home-update-16"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>17</td>
+                                            <td id="home-change-content-17"><img src="images/suppliers/a14.jpg" alt="a14"/></td>
+                                            <td id="home-change-17"><a>Change</a></td>
+                                            <td class="display-hidden" id="home-updated-content-17">
+                                                <form action="" method="post" enctype="multipart/form-data">
+                                                    Select image to upload:
+                                                    <input class="form-group" type="file" name="fileToUpload" id="fileToUpload">
+                                                    <input class="custom-button" type="submit" value="Upload Image" name="submit">
+                                                </form>
+                                            </td>
+                                            <td class="display-hidden" id="home-update-17"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>18</td>
+                                            <td id="home-change-content-18"><img src="images/suppliers/a15.jpg" alt="a15"/></td>
+                                            <td id="home-change-18"><a>Change</a></td>
+                                            <td class="display-hidden" id="home-updated-content-18">
+                                                <form action="" method="post" enctype="multipart/form-data">
+                                                    Select image to upload:
+                                                    <input class="form-group" type="file" name="fileToUpload" id="fileToUpload">
+                                                    <input class="custom-button" type="submit" value="Upload Image" name="submit">
+                                                </form>
+                                            </td>
+                                            <td class="display-hidden" id="home-update-18"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>19</td>
+                                            <td id="home-change-content-19"><img src="images/suppliers/a16.jpg" alt="a16"/></td>
+                                            <td id="home-change-19"><a>Change</a></td>
+                                            <td class="display-hidden" id="home-updated-content-19">
+                                                <form action="" method="post" enctype="multipart/form-data">
+                                                    Select image to upload:
+                                                    <input class="form-group" type="file" name="fileToUpload" id="fileToUpload">
+                                                    <input class="custom-button" type="submit" value="Upload Image" name="submit">
+                                                </form>
+                                            </td>
+                                            <td class="display-hidden" id="home-update-19"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>20</td>
+                                            <td id="home-change-content-20"><img src="images/suppliers/a17.jpg" alt="a17"/></td>
+                                            <td id="home-change-20"><a>Change</a></td>
+                                            <td class="display-hidden" id="home-updated-content-20">
+                                                <form action="" method="post" enctype="multipart/form-data">
+                                                    Select image to upload:
+                                                    <input class="form-group" type="file" name="fileToUpload" id="fileToUpload">
+                                                    <input class="custom-button" type="submit" value="Upload Image" name="submit">
+                                                </form>
+                                            </td>
+                                            <td class="display-hidden" id="home-update-20"><a>Update</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>21</td>
+                                            <td id="home-change-content-21"><img src="images/suppliers/a18.jpg" alt="a18"/></td>
+                                            <td id="home-change-21"><a>Change</a></td>
+                                            <td class="display-hidden" id="home-updated-content-21">
+                                                <form action="" method="post" enctype="multipart/form-data">
+                                                    Select image to upload:
+                                                    <input class="form-group" type="file" name="fileToUpload" id="fileToUpload">
+                                                    <input class="custom-button" type="submit" value="Upload Image" name="submit">
+                                                </form>
+                                            </td>
+                                            <td class="display-hidden" id="home-update-21"><a>Update</a></td>
                                         </tr>
                                     </table>
                                 </div>
@@ -670,5 +748,4 @@
     </div>
     <div class="push"></div>
 </div>
-<?php include './footer.php'; ?>
 <script type="text/javascript" src="js/admin.js"></script>

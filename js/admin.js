@@ -180,6 +180,78 @@ $(document).ready(function () {
         $("#home-change-15").show();
         $("#home-change-content-15").show();
     });
+    $("#home-change-16").click(function () {
+        $("#home-update-16").show();
+        $("#home-updated-content-16").show();
+        $("#home-change-16").hide();
+        $("#home-change-content-16").hide();
+    });
+    $("#home-update-16").click(function () {
+        $("#home-update-16").hide();
+        $("#home-updated-content-16").hide();
+        $("#home-change-16").show();
+        $("#home-change-content-16").show();
+    });
+    $("#home-change-17").click(function () {
+        $("#home-update-17").show();
+        $("#home-updated-content-17").show();
+        $("#home-change-17").hide();
+        $("#home-change-content-17").hide();
+    });
+    $("#home-update-17").click(function () {
+        $("#home-update-17").hide();
+        $("#home-updated-content-17").hide();
+        $("#home-change-17").show();
+        $("#home-change-content-17").show();
+    });
+    $("#home-change-18").click(function () {
+        $("#home-update-18").show();
+        $("#home-updated-content-18").show();
+        $("#home-change-18").hide();
+        $("#home-change-content-18").hide();
+    });
+    $("#home-update-18").click(function () {
+        $("#home-update-18").hide();
+        $("#home-updated-content-18").hide();
+        $("#home-change-18").show();
+        $("#home-change-content-18").show();
+    });
+    $("#home-change-19").click(function () {
+        $("#home-update-19").show();
+        $("#home-updated-content-19").show();
+        $("#home-change-19").hide();
+        $("#home-change-content-19").hide();
+    });
+    $("#home-update-19").click(function () {
+        $("#home-update-19").hide();
+        $("#home-updated-content-19").hide();
+        $("#home-change-19").show();
+        $("#home-change-content-19").show();
+    });
+    $("#home-change-20").click(function () {
+        $("#home-update-20").show();
+        $("#home-updated-content-20").show();
+        $("#home-change-20").hide();
+        $("#home-change-content-20").hide();
+    });
+    $("#home-update-20").click(function () {
+        $("#home-update-20").hide();
+        $("#home-updated-content-20").hide();
+        $("#home-change-20").show();
+        $("#home-change-content-20").show();
+    });
+    $("#home-change-21").click(function () {
+        $("#home-update-21").show();
+        $("#home-updated-content-21").show();
+        $("#home-change-21").hide();
+        $("#home-change-content-21").hide();
+    });
+    $("#home-update-21").click(function () {
+        $("#home-update-21").hide();
+        $("#home-updated-content-21").hide();
+        $("#home-change-21").show();
+        $("#home-change-content-21").show();
+    });
 
     /*----------- About Us ---------------*/
     $("#about-us-edit-1").click(function () {

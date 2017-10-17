@@ -197,7 +197,7 @@ a:hover{
     padding: 0;
 }
 .phone-number-ul li h1{
-    margin-top: -32px!important;
+    margin-top: -32px;
 }
 .header-navbar-custom {
     background-color: transparent!important;
@@ -634,7 +634,8 @@ i{
         float: right;
     }
     .phone-number-ul {
-        margin-top: -30px;
+        margin-top: -8px;
+        margin-bottom: 15px;
         float: left;
     }
     .free-quote {
@@ -652,7 +653,7 @@ i{
         }*/
     .phone-number-ul h1{
         font-size: 16px!important;
-        margin-top: 10px!important;
+        margin-top: 15px!important;
     }
     .navbar-nav>li>a {
         padding-bottom: 20px!important;
@@ -675,6 +676,16 @@ i{
     .carousel-caption{
         bottom: 25px;
     }
+    .company-country{
+        font-size: 48px;
+        top: -27px;
+        left: 161px;
+    }
+    .company-business{
+        font-size: 28px;
+        top: -24px;
+        left: 167px;
+    }
 }
 @media (min-width : 768px) and (max-width : 991px) {
     .phone-number-ul > li, .phone-number-ul > i{
@@ -683,8 +694,13 @@ i{
         float: right;
     }
     .phone-number-ul {
-        margin-top: -30px;
+        margin-top: 20px;
+        margin-bottom: 1px;
         float: left;
+    }
+    .phone-number-ul h1{
+        font-size: 28px!important;
+        margin-top: -24px!important;
     }
     .carousel-caption span{
         font-size: 18px;
@@ -693,6 +709,16 @@ i{
     }
     .carousel-caption{
         bottom: 28px;
+    }
+    .company-country{
+        font-size: 48px;
+        top: -27px;
+        left: 161px;
+    }
+    .company-business{
+        font-size: 28px;
+        top: -24px;
+        left: 167px;
     }
 }
 .header-navbar-custom .navbar-nav > li > a, .header-navbar-custom .navbar-nav > li > a:focus, .header-navbar-custom .navbar-nav > li > a:hover {
@@ -711,7 +737,11 @@ i{
         float: right;
     }
     .phone-number-ul {
-        margin-top: 30px;
+        margin-top: 65px;
+    }
+    .phone-number-ul h1{
+        font-size: 28px!important;
+        margin-top: -24px!important;
     }
     .header-navbar-custom .navbar-nav > li > a, .header-navbar-custom .navbar-nav > li > a:focus, .header-navbar-custom .navbar-nav > li > a:hover {
         padding: 15px 33px;
@@ -733,6 +763,16 @@ i{
     .carousel-caption{
         bottom: 35px;
     }
+    .company-country{
+        font-size: 48px;
+        top: -27px;
+        left: 161px;
+    }
+    .company-business{
+        font-size: 28px;
+        top: -24px;
+        left: 167px;
+    }
 }
 @media (min-width : 1200px) {
     .phone-number-ul > li, .phone-number-ul > i{
@@ -741,7 +781,11 @@ i{
         float: right;
     }
     .phone-number-ul {
-        margin-top: 30px;
+        margin-top: 65px;
+    }
+    .phone-number-ul h1{
+        font-size: 32px!important;
+        margin-top: -24px!important;
     }
     .header-navbar-custom .navbar-nav > li > a, .header-navbar-custom .navbar-nav > li > a:focus, .header-navbar-custom .navbar-nav > li > a:hover {
         padding: 15px 27px;
@@ -762,6 +806,16 @@ i{
     }
     .carousel-caption{
         bottom: -30px;
+    }
+    .company-country{
+        font-size: 48px;
+        top: -27px;
+        left: 161px;
+    }
+    .company-business{
+        font-size: 28px;
+        top: -24px;
+        left: 167px;
     }
 }
 
@@ -822,4 +876,8 @@ tr:nth-child(even) {
 .login-form-header-pagelet h1{
     color: #fff;
     font-family: cursive;
+}
+#home img{
+    width: 100px!important;
+    height: 50px!important;
 }
