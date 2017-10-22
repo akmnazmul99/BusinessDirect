@@ -40,7 +40,7 @@ body {
 }
 
 .wrapper {
-    margin-top: -15px;
+    padding-top: 15px;
     background: #dddddd;
     background: -moz-linear-gradient(top, #dddddd 0%, #ededed 7%, #ffffff 16%, #ffffff 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #dddddd), color-stop(7%, #ededed), color-stop(16%, #ffffff), color-stop(100%, #ffffff));
