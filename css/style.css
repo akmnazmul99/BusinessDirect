@@ -137,8 +137,8 @@ a:hover{
 }
 .custom-button,.custom-button:hover,.custom-button:focus,.custom-button:active{
     color: #fff;
-    background-color: #00537D;
-    border-color: #00537D;
+    background-color: #991435;
+    border-color: #991435;
 }
 
 /*---------------------------------- Header ----------------------------------------*/
@@ -230,6 +230,9 @@ a:hover{
 }
 .header-navbar-custom .navbar-toggle .icon-bar{
     background-color: #fff!important;
+}
+.nav-custom{
+    margin: 0 auto!important;
 }
 .nav-custom li{
     border-bottom: 4px solid #666;
@@ -362,7 +365,10 @@ a:hover{
 .carousel-indicators{
     bottom: -50px;
 }
-
+.carousel-caption {
+    right: 0%;
+    left: 0%;
+}
 /*---------------------------------- Features ----------------------------------------*/
 #features {
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.56);
@@ -560,7 +566,7 @@ i{
     border: 1px solid #999;
 }
 .msg-panel-box p,.msg-panel-box label{
-    font-size: 14px;
+    font-size: 12px;
 }
 .msg-panel-box label{
     margin-bottom: 0px;
@@ -669,7 +675,7 @@ i{
         top: 50px; 
     }
     .carousel-caption span{
-        font-size: 14px;
+        font-size: 7px;
         line-height: 36px;
         padding: 5px 10px;
 
@@ -703,13 +709,16 @@ i{
         font-size: 28px!important;
         margin-top: -24px!important;
     }
+    .header-navbar-custom .navbar-nav > li > a, .header-navbar-custom .navbar-nav > li > a:focus, .header-navbar-custom .navbar-nav > li > a:hover {
+        padding: 15px 20px!important;
+    }
     .carousel-caption span{
-        font-size: 18px;
+        font-size: 15px;
         line-height: 40px;
         padding: 5px 10px;
     }
     .carousel-caption{
-        bottom: 28px;
+        bottom: -30px;
     }
     .company-country{
         font-size: 48px;
@@ -721,9 +730,9 @@ i{
         top: -24px;
         left: 167px;
     }
-}
-.header-navbar-custom .navbar-nav > li > a, .header-navbar-custom .navbar-nav > li > a:focus, .header-navbar-custom .navbar-nav > li > a:hover {
-    padding: 15px 25px;
+    .nav {
+        padding-left: 10%;
+    }
 }
 #features {
     height: 405px;
@@ -745,7 +754,7 @@ i{
         margin-top: -24px!important;
     }
     .header-navbar-custom .navbar-nav > li > a, .header-navbar-custom .navbar-nav > li > a:focus, .header-navbar-custom .navbar-nav > li > a:hover {
-        padding: 15px 33px;
+        padding: 15px 25px;
     }
     #features {
         height: 365px;
@@ -757,12 +766,12 @@ i{
         border: 1px solid #0092f7;
     }
     .carousel-caption span{
-        font-size: 25px;
-        line-height: 50px;
+        font-size: 18px;
+        line-height: 45px;
         padding: 5px 10px;
     }
     .carousel-caption{
-        bottom: 35px;
+        bottom: -30px;
     }
     .company-country{
         font-size: 48px;
@@ -789,7 +798,7 @@ i{
         margin-top: -24px!important;
     }
     .header-navbar-custom .navbar-nav > li > a, .header-navbar-custom .navbar-nav > li > a:focus, .header-navbar-custom .navbar-nav > li > a:hover {
-        padding: 15px 27px;
+        padding: 15px 20px;
     }
     #features {
         height: 340px;
