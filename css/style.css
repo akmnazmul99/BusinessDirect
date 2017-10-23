@@ -4,13 +4,6 @@ Version: 1.0
 */
 
 @font-face {
-    font-family: 'berkshireswash';
-    src: url('../fonts/berkshireswash-regular-webfont.woff2') format('woff2'),
-        url('../fonts/berkshireswash-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
     font-family: 'comfortaa';
     src: url('../fonts/comfortaa-regular-webfont.woff2') format('woff2'),
         url('../fonts/comfortaa-regular-webfont.woff') format('woff');
@@ -18,14 +11,20 @@ Version: 1.0
     font-style: normal;
 }
 @font-face {
-    font-family: 'ubuntu';
-    src: url('../fonts/ubuntu-regular-webfont.woff2') format('woff2'),
-        url('../fonts/ubuntu-regular-webfont.woff') format('woff');
+    font-family: 'Gabriola';
+    src: url('../fonts/Gabriola.eot') format('embedded-opentype'),
+        url('../fonts/Gabriola.svg') format('svg'),
+        url('../fonts/Gabriola.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
-
-
+@font-face {
+    font-family: 'castellar';
+    src: url('../fonts/castelar-webfont.woff2') format('woff2'),
+         url('../fonts/castelar-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 html, body {
     height: 100%;
     margin: 0;
@@ -171,7 +170,7 @@ a:hover{
     right: 0;
 }
 .company-country{
-    font-family: 'berkshireswash';
+    font-family: 'castellar';
     font-size: 48px;
     color: #991435;
     position: relative;
@@ -179,7 +178,7 @@ a:hover{
     left: 161px;
 }
 .company-business{
-    font-family: 'berkshireswash';
+    font-family: 'castellar';
     font-size: 28px;
     color: #991435;
     position: relative;
@@ -350,7 +349,7 @@ a:hover{
     background-color: rgba(0, 0, 0, 0.5);
     visibility: inherit;
     transition: none;
-    text-align: center;
+    text-align: initial;
     border-width: 0px;
     margin: 0px;
     font-weight: 800;
@@ -361,6 +360,7 @@ a:hover{
     opacity: 1;
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
     transform-origin: 50% 50% 0px;
+    text-transform: uppercase;
 }
 .carousel-indicators{
     bottom: -50px;
@@ -393,18 +393,16 @@ a:hover{
     text-decoration: none;
 }
 #features p {
-    display: block;
     display: -webkit-box;
-    margin: 0 auto;
-    line-height: 150%;
     -webkit-line-clamp: 5;
     -webkit-box-orient: vertical;
-    overflow: hidden!important;
+    overflow: hidden;
     text-overflow: ellipsis;
+    height: 120px;
 }
 /*---------------------------------- Suppliers ----------------------------------------*/
 .supplier-title{
-    font-family: 'ubuntu';
+    font-family: 'Gabriola';
     color: #991435;
     font-weight: bold;
     margin-top: -20px!important;

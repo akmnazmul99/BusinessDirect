@@ -142,7 +142,7 @@
         <div class="row form-group margin-top-50px">
             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" >
                 <div id="features" class="wow fadeInLeftBig" data-wow-duration="1s">
-                    <a href="about-us.php"><img src="images/features/icon-1.png" alt="About Us"/></a><p></p>
+                    <a href="about-us.php"><img src="images/features/icon-1.png" alt="About Us"/></a>
                     <h1><a href="about-us.php">About Us</a></h1>
                     <p>UK Energy Business is a independent broker service agency working on behalf of energy suppliers in the UK. Our aim is to help business take advantage of the best prices and services on offer from suppliers.</p>
                     <p><a class="more" href="about-us.php">More Info</a></p>
@@ -150,7 +150,7 @@
             </div>
             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                 <div id="features" class="wow fadeInUpBig" data-wow-duration="1s">
-                    <a href="sme.php"><img src="images/features/icon-2.png" alt="Services" ></a><p></p>
+                    <a href="sme.php"><img src="images/features/icon-2.png" alt="Services" ></a>
                     <h1><a href="sme.php">SME</a></h1>
                     <p>Each service has a comprehensive help section to answer any questions you have about switching or applying for a product. If you would prefer to have a helping hand, our customer service team are here to help, both before and after you switch.</p>
                     <p><a class="more" href="sme.php">More Info</a></p>
@@ -158,7 +158,7 @@
             </div>
             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                 <div id="features" class="wow fadeInRightBig" data-wow-duration="1s">
-                    <a href="join-us.php"><img src="images/features/icon-3.png"  alt="Careers" ></a><p></p>
+                    <a href="join-us.php"><img src="images/features/icon-3.png"  alt="Careers" ></a>
                     <h1><a href="join-us.php">Join Us</a></h1>
                     <p>UK Energy Business is looking for top-calibres people who want the flexibility and resources to grow in their career. If you are the kind of person who has always stood out, we offer a place where you can continue to excel. No matter what your field is or range of interests are, there are opportunities here where your talents can likely be applied and developed. We have thousands of diverse people from different cultures and backgrounds working in a various fields, doing different jobs.</p>
                     <p><a class="more" href="join-us.php">More Info</a></p>
