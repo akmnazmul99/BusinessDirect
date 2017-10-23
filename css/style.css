@@ -172,6 +172,7 @@ a:hover{
 .company-country{
     font-family: 'castellar';
     font-size: 48px;
+    text-transform: uppercase;
     color: #991435;
     position: relative;
     top: -27px;
@@ -180,6 +181,7 @@ a:hover{
 .company-business{
     font-family: 'castellar';
     font-size: 28px;
+    text-transform: uppercase;
     color: #991435;
     position: relative;
     top: -24px;
