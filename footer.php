@@ -72,7 +72,20 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <p class="footer-text">UK Energy Business © 2012. All Rights Reserved.</p>
+                    <div id="footer-menu">
+                        <ul>
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="about-us.php">About Us</a></li>
+                            <li><a href="sme.php">SME</a></li>
+                            <li><a href="join-us.php">Join Us</a></li>
+                            <li><a href="contact-us.php">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <p class="footer-text text-center">UK Energy Business © 2012. All Rights Reserved.</p>
                 </div>
             </div>
         </div>
@@ -123,8 +136,8 @@
 </body>
 </html>
 <script>
-    $(document).ready(function() {
-        $(".quick-msg-img").click(function(event) {
+    $(document).ready(function () {
+        $(".quick-msg-img").click(function (event) {
             event.preventDefault();
             if ($(this).hasClass("in-out")) {
                 $(".msg-panel-box").stop().animate({left: "0px"}, 500);
